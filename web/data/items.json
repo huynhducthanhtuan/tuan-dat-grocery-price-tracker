@@ -1,0 +1,34 @@
+[
+  {
+    "name": "không độ",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": 200000,
+    "image": "khong_do.jpg"
+  },
+  {
+    "name": "bò húc",
+    "unit": "lon",
+    "price": 15000,
+    "pack": 70000,
+    "box": 280000,
+    "image": "bo_huc.jpg"
+  },
+  {
+    "name": "nutri",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": 200000,
+    "image": "nutri.jpg"
+  },
+  {
+    "name": "trà ô long",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": 200000,
+    "image": "c2.jpg"
+  }
+]
