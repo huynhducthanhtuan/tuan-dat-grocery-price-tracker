@@ -4,15 +4,15 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": 200000,
+    "box": 190000,
     "image": "khong_do.jpg"
   },
   {
     "name": "bò húc",
     "unit": "lon",
     "price": 15000,
-    "pack": 70000,
-    "box": 280000,
+    "pack": 80000,
+    "box": 300000,
     "image": "bo_huc.jpg"
   },
   {
@@ -20,7 +20,7 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": 200000,
+    "box": 190000,
     "image": "nutri.jpg"
   },
   {
@@ -28,7 +28,7 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": 200000,
+    "box": 190000,
     "image": "c2.jpg"
   }
 ]
