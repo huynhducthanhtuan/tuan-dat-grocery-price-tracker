@@ -239,6 +239,11 @@ export default function App() {
       </section>
 
       <section className="search-bar card">
+        <div className="status-bar" style={{ width: "100%" }}>
+          <div>
+            <h2>Tìm mặt hàng</h2>
+          </div>
+        </div>
         <input
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
