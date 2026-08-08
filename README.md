@@ -1,14 +1,12 @@
-# TH Tuấn Đạt - Trích xuất giá sản phẩm
+# Trích xuất giá sản phẩm - Tạp hóa Tuấn Đạt
 
-Web application hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho cửa hàng tạp hóa **TH Tuấn Đạt**.
+Web application hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho cửa hàng tạp hóa **Tuấn Đạt**.
 
 ## ✨ Features
 
-- 📦 Trích xuất thông tin sản phẩm
-- 💰 Hiển thị giá sản phẩm
+- 💰 Trích xuất giá sản phẩm
 - 🔎 Tìm kiếm sản phẩm
 - 📱 Giao diện responsive
-- ⚡ Frontend xây dựng bằng React
 
 ## 🛠️ Tech Stack
 
@@ -30,8 +28,13 @@ Web application hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho
 Clone repository:
 
 ```bash
-git clone <repository-url>
-cd <project-directory>
+git clone https://github.com/huynhducthanhtuan/tuan-dat-grocery-price-tracker.git
+```
+
+Go to web folder:
+
+```bash
+cd tuan-dat-grocery-price-tracker/web
 ```
 
 Install dependencies:
@@ -51,38 +54,6 @@ npm run dev
 ```text
 http://localhost:5173
 ```
-
-### Build
-
-```bash
-npm run build
-```
-
-Preview production build:
-
-```bash
-npm run preview
-```
-
-## 🌐 Deployment
-
-Project có thể được deploy miễn phí trên **Vercel**.
-
-Build command:
-
-```bash
-npm run build
-```
-
-Output directory:
-
-```text
-dist
-```
-
-## 📌 Project Purpose
-
-Đây là project cá nhân được xây dựng nhằm **ứng dụng công nghệ vào việc quản lý và tra cứu giá sản phẩm tại cửa hàng tạp hóa TH Tuấn Đạt**, đồng thời phục vụ mục đích học tập và thực hành phát triển ứng dụng web với React.
 
 ## 📄 License
 
