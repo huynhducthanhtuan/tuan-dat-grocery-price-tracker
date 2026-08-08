@@ -38,11 +38,6 @@ const normalizeItem = (item: any): Item => {
       ? item.price
       : parseAmount(String(item.price || "0"));
 
-  // Debug: log để kiểm tra dữ liệu
-  console.log("Normalizing item:", item);
-  console.log("Pack value:", item.pack);
-  console.log("Box value:", item.box);
-
   return {
     name: String(item.name || ""),
     price,
@@ -130,39 +125,16 @@ const parseReceipt = (text: string): Item[] => {
 
 export default function App() {
   const [receiptText, setReceiptText] = useState<string>("");
+  // LUÔN LUÔN sử dụng dữ liệu từ file JSON, không lưu vào localStorage
   const [items, setItems] = useState<Item[]>(() => {
-    if (typeof window === "undefined") return initialItems as Item[];
-
     // Normalize dữ liệu từ initialItems
-    const normalizedInitial = (initialItems as any[]).map(normalizeItem);
-
-    // Debug: log dữ liệu đã normalize
-    console.log("Normalized initial items:", normalizedInitial);
-
-    const saved = window.localStorage.getItem("grocery-price-tracker-items");
-    if (!saved) return normalizedInitial;
-
-    try {
-      const parsed = JSON.parse(saved);
-      if (Array.isArray(parsed) && parsed.length > 0) {
-        const normalized = parsed.map(normalizeItem);
-        console.log("Normalized from localStorage:", normalized);
-        return normalized;
-      }
-      return normalizedInitial;
-    } catch {
-      return normalizedInitial;
-    }
+    const normalizedItems = (initialItems as any[]).map(normalizeItem);
+    console.log("✅ Loaded items from JSON:", normalizedItems.length);
+    console.log("📦 Sample item:", normalizedItems[0]);
+    return normalizedItems;
   });
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [status, setStatus] = useState<string>("");
-
-  useEffect(() => {
-    window.localStorage.setItem(
-      "grocery-price-tracker-items",
-      JSON.stringify(items),
-    );
-  }, [items]);
 
   const filteredItems = useMemo(
     () =>
@@ -179,9 +151,19 @@ export default function App() {
       return;
     }
 
+    // Chỉ thêm vào state để hiển thị, KHÔNG lưu vào localStorage
     setItems((prev: Item[]) => [...parsed, ...prev]);
-    setStatus("Đã thêm dữ liệu vào bộ nhớ trình duyệt");
+    setStatus(
+      `✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`,
+    );
     setReceiptText("");
+  };
+
+  // Hàm reset về dữ liệu gốc từ file JSON
+  const resetToOriginal = () => {
+    const normalizedItems = (initialItems as any[]).map(normalizeItem);
+    setItems(normalizedItems);
+    setStatus("🔄 Đã reset về dữ liệu gốc từ file JSON");
   };
 
   return (
@@ -201,10 +183,7 @@ export default function App() {
         <div className="section-head">
           <div>
             <h2>Danh sách mặt hàng</h2>
-            <p>
-              Hiển thị các mặt hàng hiện có từ dữ liệu mẫu và bộ nhớ trình
-              duyệt.
-            </p>
+            <p>Hiển thị các mặt hàng có trong cửa hàng</p>
           </div>
           <span className="item-count">{items.length} mặt hàng</span>
         </div>
@@ -212,10 +191,6 @@ export default function App() {
         <div className="item-grid">
           {items.map((item, index) => {
             const imageUrl = getItemImage(item);
-            // Debug: log từng item
-            console.log(`Item ${index}:`, item);
-            console.log(`Pack: ${item.pack}, Box: ${item.box}`);
-
             return (
               <article key={index} className="item-card">
                 {imageUrl ? (
@@ -233,19 +208,15 @@ export default function App() {
                       Giá: {item.price.toLocaleString("vi-VN")} đ/
                       {item.unit || "sp"}
                     </span>
-                    {item.pack ? (
+                    {item.pack && (
                       <span>
                         Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc
                       </span>
-                    ) : (
-                      <span>Lốc: Không có dữ liệu</span>
                     )}
-                    {item.box ? (
+                    {item.box && (
                       <span>
                         Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng
                       </span>
-                    ) : (
-                      <span>Thùng: Không có dữ liệu</span>
                     )}
                   </div>
                 </div>
@@ -255,20 +226,11 @@ export default function App() {
         </div>
       </section>
 
-      <section className="search-bar card">
-        <input
-          value={searchTerm}
-          onChange={(e) => setSearchTerm(e.target.value)}
-          placeholder="Tìm mặt hàng..."
-        />
-        <span>{filteredItems.length} kết quả</span>
-      </section>
-
       <section className="results card">
         <div className="status-bar">
           <div>
             <h2>Kết quả</h2>
-            <p>{status || "Xem chi tiết giá và mặt hàng lưu trữ."}</p>
+            <p>{status || "Xem chi tiết giá và mặt hàng."}</p>
           </div>
           <div className="pill">{filteredItems.length} mục</div>
         </div>
