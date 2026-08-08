@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import initialItems from "../data/items.json";
 import { getItemImage, fallbackImages } from "./helpers/itemImages";
 
