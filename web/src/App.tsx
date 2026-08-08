@@ -125,9 +125,7 @@ const parseReceipt = (text: string): Item[] => {
 
 export default function App() {
   const [receiptText, setReceiptText] = useState<string>("");
-  // LUÔN LUÔN sử dụng dữ liệu từ file JSON, không lưu vào localStorage
   const [items, setItems] = useState<Item[]>(() => {
-    // Normalize dữ liệu từ initialItems
     const normalizedItems = (initialItems as any[]).map(normalizeItem);
     console.log("✅ Loaded items from JSON:", normalizedItems.length);
     console.log("📦 Sample item:", normalizedItems[0]);
@@ -135,6 +133,9 @@ export default function App() {
   });
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [status, setStatus] = useState<string>("");
+  // State cho popup ảnh
+  const [selectedImage, setSelectedImage] = useState<string | null>(null);
+  const [selectedItemName, setSelectedItemName] = useState<string>("");
 
   const filteredItems = useMemo(
     () =>
@@ -151,7 +152,6 @@ export default function App() {
       return;
     }
 
-    // Chỉ thêm vào state để hiển thị, KHÔNG lưu vào localStorage
     setItems((prev: Item[]) => [...parsed, ...prev]);
     setStatus(
       `✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`,
@@ -159,11 +159,26 @@ export default function App() {
     setReceiptText("");
   };
 
-  // Hàm reset về dữ liệu gốc từ file JSON
   const resetToOriginal = () => {
     const normalizedItems = (initialItems as any[]).map(normalizeItem);
     setItems(normalizedItems);
     setStatus("🔄 Đã reset về dữ liệu gốc từ file JSON");
+  };
+
+  // Hàm mở popup ảnh
+  const openImagePopup = (imageUrl: string | undefined, itemName: string) => {
+    if (imageUrl) {
+      setSelectedImage(imageUrl);
+      setSelectedItemName(itemName);
+    } else {
+      alert(`Không có ảnh cho sản phẩm "${itemName}"`);
+    }
+  };
+
+  // Hàm đóng popup
+  const closeImagePopup = () => {
+    setSelectedImage(null);
+    setSelectedItemName("");
   };
 
   return (
@@ -247,25 +262,160 @@ export default function App() {
                   <th>Giá</th>
                   <th>Giá lốc</th>
                   <th>Giá thùng</th>
+                  <th>Xem hình</th> {/* Thêm cột mới */}
                 </tr>
               </thead>
               <tbody>
-                {filteredItems.map((item, index) => (
-                  <tr key={index}>
-                    <td>{item.name}</td>
-                    <td>{item.unit || "—"}</td>
-                    <td>
-                      {item.price.toLocaleString("vi-VN")} đ/{item.unit || "sp"}
-                    </td>
-                    <td>{item.pack?.toLocaleString("vi-VN") || "—"}</td>
-                    <td>{item.box?.toLocaleString("vi-VN") || "—"}</td>
-                  </tr>
-                ))}
+                {filteredItems.map((item, index) => {
+                  const imageUrl = getItemImage(item);
+                  return (
+                    <tr key={index}>
+                      <td>{item.name}</td>
+                      <td>{item.unit || "—"}</td>
+                      <td>
+                        {item.price.toLocaleString("vi-VN")} đ/
+                        {item.unit || "sp"}
+                      </td>
+                      <td>{item.pack?.toLocaleString("vi-VN") || "—"}</td>
+                      <td>{item.box?.toLocaleString("vi-VN") || "—"}</td>
+                      <td>
+                        <button
+                          onClick={() => openImagePopup(imageUrl, item.name)}
+                          style={{
+                            background: "none",
+                            border: "none",
+                            color: "#007bff",
+                            cursor: "pointer",
+                            textDecoration: "underline",
+                            padding: "4px 8px",
+                            fontSize: "14px",
+                          }}
+                        >
+                          📷 Xem hình
+                        </button>
+                      </td>
+                    </tr>
+                  );
+                })}
               </tbody>
             </table>
           </div>
         )}
       </section>
+
+      {/* Popup hiển thị ảnh */}
+      {selectedImage && (
+        <div
+          style={{
+            position: "fixed",
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: "rgba(0, 0, 0, 0.8)",
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            zIndex: 9999,
+            padding: "20px",
+          }}
+          onClick={closeImagePopup}
+        >
+          <div
+            style={{
+              position: "relative",
+              maxWidth: "90%",
+              maxHeight: "90%",
+              backgroundColor: "white",
+              borderRadius: "8px",
+              padding: "20px",
+              boxShadow: "0 4px 20px rgba(0,0,0,0.5)",
+            }}
+            onClick={(e) => e.stopPropagation()}
+          >
+            {/* Nút đóng */}
+            <button
+              onClick={closeImagePopup}
+              style={{
+                position: "absolute",
+                top: "-12px",
+                right: "-12px",
+                width: "36px",
+                height: "36px",
+                borderRadius: "50%",
+                border: "none",
+                backgroundColor: "#f44336",
+                color: "white",
+                fontSize: "20px",
+                cursor: "pointer",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                boxShadow: "0 2px 8px rgba(0,0,0,0.3)",
+                transition: "transform 0.2s",
+                padding: "0",
+                lineHeight: "1",
+                overflow: "hidden",
+                textAlign: "center",
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = "scale(1.1)";
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = "scale(1)";
+              }}
+            >
+              ✕
+            </button>
+
+            {/* Tên sản phẩm */}
+            <h3
+              style={{
+                margin: "0 0 16px 0",
+                textAlign: "center",
+                color: "#333",
+                fontSize: "20px",
+              }}
+            >
+              {selectedItemName}
+            </h3>
+
+            {/* Ảnh sản phẩm */}
+            <div
+              style={{
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "center",
+                maxWidth: "80vw",
+                maxHeight: "70vh",
+              }}
+            >
+              <img
+                src={selectedImage}
+                alt={selectedItemName}
+                style={{
+                  maxWidth: "100%",
+                  maxHeight: "70vh",
+                  objectFit: "contain",
+                  borderRadius: "4px",
+                }}
+              />
+            </div>
+
+            {/* Thông tin thêm */}
+            <div
+              style={{
+                marginTop: "16px",
+                textAlign: "center",
+                color: "#666",
+                fontSize: "14px",
+              }}
+            >
+              <p>Click bên ngoài ảnh hoặc nhấn ✕ để đóng</p>
+            </div>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
