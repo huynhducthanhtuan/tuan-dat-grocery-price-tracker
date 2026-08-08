@@ -30,5 +30,157 @@
     "pack": 50000,
     "box": 190000,
     "image": "c2.jpg"
+  },
+  {
+    "name": "revive",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "revive.jpg"
+  },
+  {
+    "name": "chanh muối",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 45000,
+    "box": null,
+    "image": "chanh_muoi.jpg"
+  },
+  {
+    "name": "sting chai",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "sting_chai.jpg"
+  },
+  {
+    "name": "sting lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "sting_lon.jpg"
+  },
+  {
+    "name": "coca chai lớn",
+    "unit": "chai",
+    "price": 18000,
+    "pack": 102000,
+    "box": null,
+    "image": "coca_chai_lon.jpg"
+  },
+  {
+    "name": "coca chai nhỏ",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 30000,
+    "box": null,
+    "image": "coca_chai_nho.jpg"
+  },
+  {
+    "name": "coca lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "coca_lon.jpg"
+  },
+  {
+    "name": "sprite chai nhỏ",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 30000,
+    "box": null,
+    "image": "sprite_chai_nho.jpg"
+  },
+  {
+    "name": "sprite chai lớn",
+    "unit": "chai",
+    "price": 18000,
+    "pack": 102000,
+    "box": null,
+    "image": "sprite_chai_lon.jpg"
+  },
+  {
+    "name": "sprite lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "sprite_lon.jpg"
+  },
+  {
+    "name": "fanta chai nhỏ",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 30000,
+    "box": null,
+    "image": "fanta_chai_nho.jpg"
+  },
+  {
+    "name": "fanta chai lớn",
+    "unit": "chai",
+    "price": 18000,
+    "pack": 102000,
+    "box": null,
+    "image": "fanta_chai_lon.jpg"
+  },
+  {
+    "name": "fanta lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "fanta_lon.jpg"
+  },
+  {
+    "name": "pocari nhỏ",
+    "unit": "chai",
+    "price": 13000,
+    "pack": 65000,
+    "box": null,
+    "image": "pocari_nho.jpg"
+  },
+  {
+    "name": "pocari trung",
+    "unit": "chai",
+    "price": 15000,
+    "pack": 85000,
+    "box": null,
+    "image": "pocari_trung.jpg"
+  },
+  {
+    "name": "pocari lớn",
+    "unit": "chai",
+    "price": 22000,
+    "pack": null,
+    "box": null,
+    "image": "pocari_lon.jpg"
+  },
+  {
+    "name": "aquarius",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "aquarius.jpg"
+  },
+  {
+    "name": "nước lọc aquafina",
+    "unit": "chai",
+    "price": 5000,
+    "pack": null,
+    "box": 105000,
+    "image": "nuoc_loc_aquafina.jpg"
+  },
+  {
+    "name": "nước lọc number one",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 25000,
+    "box": null,
+    "image": "nuoc_loc_number_one.jpg"
   }
 ]
