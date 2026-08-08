@@ -133,7 +133,6 @@ export default function App() {
   });
   const [searchTerm, setSearchTerm] = useState<string>("");
   const [status, setStatus] = useState<string>("");
-  // State cho popup ảnh
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedItemName, setSelectedItemName] = useState<string>("");
 
@@ -165,7 +164,6 @@ export default function App() {
     setStatus("🔄 Đã reset về dữ liệu gốc từ file JSON");
   };
 
-  // Hàm mở popup ảnh
   const openImagePopup = (imageUrl: string | undefined, itemName: string) => {
     if (imageUrl) {
       setSelectedImage(imageUrl);
@@ -175,7 +173,6 @@ export default function App() {
     }
   };
 
-  // Hàm đóng popup
   const closeImagePopup = () => {
     setSelectedImage(null);
     setSelectedItemName("");
@@ -262,7 +259,7 @@ export default function App() {
                   <th>Giá</th>
                   <th>Giá lốc</th>
                   <th>Giá thùng</th>
-                  <th>Xem hình</th> {/* Thêm cột mới */}
+                  <th>Xem hình</th>
                 </tr>
               </thead>
               <tbody>
@@ -333,7 +330,6 @@ export default function App() {
             }}
             onClick={(e) => e.stopPropagation()}
           >
-            {/* Nút đóng */}
             <button
               onClick={closeImagePopup}
               style={{
@@ -368,7 +364,6 @@ export default function App() {
               ✕
             </button>
 
-            {/* Tên sản phẩm */}
             <h3
               style={{
                 margin: "0 0 16px 0",
@@ -380,7 +375,6 @@ export default function App() {
               {selectedItemName}
             </h3>
 
-            {/* Ảnh sản phẩm */}
             <div
               style={{
                 display: "flex",
@@ -402,7 +396,6 @@ export default function App() {
               />
             </div>
 
-            {/* Thông tin thêm */}
             <div
               style={{
                 marginTop: "16px",
@@ -416,6 +409,27 @@ export default function App() {
           </div>
         </div>
       )}
+
+      {/* Footer với bản quyền */}
+      <footer
+        style={{
+          marginTop: "20px",
+          textAlign: "center",
+          color: "#666",
+          fontSize: "14px",
+        }}
+      >
+        <div
+          style={{
+            maxWidth: "1200px",
+          }}
+        >
+          <p>
+            © {new Date().getFullYear()} Tạp hóa Tuấn Đạt. Phát triển bởi{" "}
+            <b>Huỳnh Đức Thanh Tuấn</b>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }
