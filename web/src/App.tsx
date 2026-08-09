@@ -1,15 +1,7 @@
 import { useMemo, useState } from "react";
 import initialItems from "../data/items.json";
 import { getItemImage, fallbackImages } from "./helpers/itemImages";
-
-export type Item = {
-  name: string;
-  price: number;
-  unit: string;
-  pack?: number;
-  box?: number;
-  image?: string;
-};
+import { Item } from "./models/Item";
 
 const normalizeUnit = (unit: string): string => {
   const normalized = unit.toLowerCase().trim();
@@ -128,7 +120,6 @@ export default function App() {
   const [items, setItems] = useState<Item[]>(() => {
     const normalizedItems = (initialItems as any[]).map(normalizeItem);
     console.log("✅ Loaded items from JSON:", normalizedItems.length);
-    console.log("📦 Sample item:", normalizedItems[0]);
     return normalizedItems;
   });
   const [searchTerm, setSearchTerm] = useState<string>("");
@@ -156,12 +147,6 @@ export default function App() {
       `✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`,
     );
     setReceiptText("");
-  };
-
-  const resetToOriginal = () => {
-    const normalizedItems = (initialItems as any[]).map(normalizeItem);
-    setItems(normalizedItems);
-    setStatus("🔄 Đã reset về dữ liệu gốc từ file JSON");
   };
 
   const openImagePopup = (imageUrl: string | undefined, itemName: string) => {
