@@ -176,6 +176,38 @@
     "image": "nuoc_loc_aquafina.jpg"
   },
   {
+    "name": "xách yến lon chấn vinh",
+    "unit": "xách",
+    "price": 55000,
+    "pack": null,
+    "box": null,
+    "image": "yen_chan_vinh.jpg"
+  },
+  {
+    "name": "xách yến hủ sanest",
+    "unit": "xách",
+    "price": 200000,
+    "pack": null,
+    "box": null,
+    "image": "yen_hu_sanest.jpg"
+  },
+  {
+    "name": "yến hủ người lớn",
+    "unit": "hủ",
+    "price": 35000,
+    "pack": null,
+    "box": null,
+    "image": "yen_hu_nguoi_lon.jpg"
+  },
+  {
+    "name": "yến hủ trẻ em",
+    "unit": "hủ",
+    "price": 33000,
+    "pack": null,
+    "box": null,
+    "image": "yen_hu_tre_em.jpg"
+  },
+  {
     "name": "tiger lùn",
     "unit": "lon",
     "price": 13500,
