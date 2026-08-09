@@ -176,11 +176,43 @@
     "image": "nuoc_loc_aquafina.jpg"
   },
   {
-    "name": "nước lọc number one",
-    "unit": "chai",
-    "price": 5000,
-    "pack": 25000,
-    "box": null,
-    "image": "nuoc_loc_number_one.jpg"
+    "name": "tiger lùn",
+    "unit": "lon",
+    "price": 13500,
+    "pack": null,
+    "box": 300000,
+    "image": "tiger_lun.jpg"
+  },
+  {
+    "name": "tiger cao",
+    "unit": "lon",
+    "price": 15000,
+    "pack": null,
+    "box": 350000,
+    "image": "tiger_cao.jpg"
+  },
+  {
+    "name": "larue",
+    "unit": "lon",
+    "price": 12000,
+    "pack": null,
+    "box": 280000,
+    "image": "larue.jpg"
+  },
+  {
+    "name": "huda",
+    "unit": "lon",
+    "price": 12500,
+    "pack": null,
+    "box": 280000,
+    "image": "huda.jpg"
+  },
+  {
+    "name": "bia anh",
+    "unit": "lon",
+    "price": 11000,
+    "pack": null,
+    "box": 265000,
+    "image": "bia_anh.jpg"
   }
 ]
