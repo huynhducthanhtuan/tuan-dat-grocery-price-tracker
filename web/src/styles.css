@@ -225,6 +225,7 @@ button:hover {
 .item-card-meta {
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
   gap: 12px;
   flex-wrap: wrap;
   color: #475569;
