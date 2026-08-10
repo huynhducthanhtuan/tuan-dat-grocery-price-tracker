@@ -208,6 +208,38 @@
     "image": "yen_hu_tre_em.jpg"
   },
   {
+    "name": "sữa TH nhỏ",
+    "unit": "hộp",
+    "price": 6000,
+    "pack": 22000,
+    "box": null,
+    "image": "th_nho.jpg"
+  },
+  {
+    "name": "sữa TH lớn",
+    "unit": "hộp",
+    "price": 10000,
+    "pack": 38000,
+    "box": null,
+    "image": "th_lon.jpg"
+  },
+  {
+    "name": "sữa milo nhỏ",
+    "unit": "hộp",
+    "price": 6000,
+    "pack": 22000,
+    "box": null,
+    "image": "milo_nho.jpg"
+  },
+  {
+    "name": "sữa milo lớn",
+    "unit": "hộp",
+    "price": 10000,
+    "pack": 38000,
+    "box": null,
+    "image": "milo_lon.jpg"
+  },
+  {
     "name": "bia tiger lùn",
     "unit": "lon",
     "price": 13500,

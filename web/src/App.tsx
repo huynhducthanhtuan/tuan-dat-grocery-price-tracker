@@ -272,8 +272,16 @@ export default function App() {
                         {item.price.toLocaleString("vi-VN")} đ/
                         {item.unit || "sp"}
                       </td>
-                      <td>{item.pack?.toLocaleString("vi-VN") || "—"}</td>
-                      <td>{item.box?.toLocaleString("vi-VN") || "—"}</td>
+                      <td>
+                        {item.pack
+                          ? item.pack?.toLocaleString("vi-VN") + " đ/lốc"
+                          : "—"}
+                      </td>
+                      <td>
+                        {item.box
+                          ? item.box?.toLocaleString("vi-VN") + " đ/thùng"
+                          : "—"}
+                      </td>
                       <td>
                         <button
                           onClick={() => openImagePopup(imageUrl, item.name)}
