@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import initialItems from "../data/items.json";
 import { getItemImage, fallbackImages } from "./helpers/itemImages";
 import { Item } from "./models/Item";
@@ -126,6 +126,30 @@ export default function App() {
   const [status, setStatus] = useState<string>("");
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedItemName, setSelectedItemName] = useState<string>("");
+  const [currentPage, setCurrentPage] = useState<number>(0);
+
+  const getItemsPerPage = () =>
+    typeof window !== "undefined" && window.innerWidth <= 640 ? 1 : 4;
+
+  const [itemsPerPage, setItemsPerPage] = useState<number>(getItemsPerPage);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setItemsPerPage(getItemsPerPage());
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  const totalPages = Math.max(1, Math.ceil(items.length / itemsPerPage));
+  const safeCurrentPage = Math.min(currentPage, totalPages - 1);
+  const visibleItems = items.slice(
+    safeCurrentPage * itemsPerPage,
+    safeCurrentPage * itemsPerPage + itemsPerPage,
+  );
 
   const filteredItems = useMemo(
     () =>
@@ -185,41 +209,68 @@ export default function App() {
           <span className="item-count">{items.length} mặt hàng</span>
         </div>
 
-        <div className="item-grid">
-          {items.map((item, index) => {
-            const imageUrl = getItemImage(item);
-            return (
-              <article key={index} className="item-card">
-                {imageUrl ? (
-                  <img
-                    src={imageUrl}
-                    alt={item.name}
-                    className="item-card-image"
-                  />
-                ) : null}
-                <div className="item-card-content">
-                  <div className="item-card-title">{item.name}</div>
-                  <div className="item-card-meta">
-                    <span>Đơn vị: {item.unit || "sp"}</span>
-                    <span>
-                      Giá: {item.price.toLocaleString("vi-VN")} đ/
-                      {item.unit || "sp"}
-                    </span>
-                    {item.pack && (
+        <div className="product-carousel">
+          <button
+            type="button"
+            className="arrow-button prev"
+            aria-label="Trang trước"
+            onClick={() => setCurrentPage((prev) => Math.max(prev - 1, 0))}
+            disabled={safeCurrentPage === 0}
+          >
+            ‹
+          </button>
+
+          <div className="item-grid">
+            {visibleItems.map((item, index) => {
+              const imageUrl = getItemImage(item);
+              return (
+                <article
+                  key={`${item.name}-${safeCurrentPage}-${index}`}
+                  className="item-card"
+                >
+                  {imageUrl ? (
+                    <img
+                      src={imageUrl}
+                      alt={item.name}
+                      className="item-card-image"
+                    />
+                  ) : null}
+                  <div className="item-card-content">
+                    <div className="item-card-title">{item.name}</div>
+                    <div className="item-card-meta">
+                      <span>Đơn vị: {item.unit || "sp"}</span>
                       <span>
-                        Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc
+                        Giá: {item.price.toLocaleString("vi-VN")} đ/
+                        {item.unit || "sp"}
                       </span>
-                    )}
-                    {item.box && (
-                      <span>
-                        Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng
-                      </span>
-                    )}
+                      {item.pack && (
+                        <span>
+                          Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc
+                        </span>
+                      )}
+                      {item.box && (
+                        <span>
+                          Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng
+                        </span>
+                      )}
+                    </div>
                   </div>
-                </div>
-              </article>
-            );
-          })}
+                </article>
+              );
+            })}
+          </div>
+
+          <button
+            type="button"
+            className="arrow-button next"
+            aria-label="Trang tiếp theo"
+            onClick={() =>
+              setCurrentPage((prev) => Math.min(prev + 1, totalPages - 1))
+            }
+            disabled={safeCurrentPage >= totalPages - 1}
+          >
+            ›
+          </button>
         </div>
       </section>
 

@@ -50,10 +50,6 @@ button {
     box-shadow 0.2s ease;
 }
 
-button:hover {
-  transform: translateY(-1px);
-}
-
 .app {
   max-width: 1080px;
   margin: 0 auto;
@@ -186,11 +182,44 @@ button:hover {
   font-weight: 700;
 }
 
+.product-carousel {
+  display: grid;
+  grid-template-columns: 44px minmax(0, 1fr) 44px;
+  align-items: center;
+  gap: 12px;
+  margin-top: 22px;
+}
+
 .item-grid {
   display: grid;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  margin-top: 22px;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  width: 100%;
+}
+
+.arrow-button {
+  position: static;
+  transform: none;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  padding-bottom: 7px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  line-height: 1;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.14);
+  z-index: 1;
+  margin: 0 auto;
+  user-select: none;   
+}
+
+.arrow-button:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+  transform: none;
 }
 
 .item-card {
@@ -397,6 +426,16 @@ tbody tr:last-child td {
   border-bottom: none;
 }
 
+@media (max-width: 900px) {
+  .product-carousel {
+    grid-template-columns: 40px minmax(0, 1fr) 40px;
+  }
+
+  .item-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
 @media (max-width: 640px) {
   .hero,
   .card {
@@ -415,5 +454,20 @@ tbody tr:last-child td {
   .search-bar {
     flex-direction: column;
     align-items: stretch;
+  }
+
+  .product-carousel {
+    grid-template-columns: 36px minmax(0, 1fr) 36px;
+    gap: 8px;
+  }
+
+  .item-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .arrow-button {
+    width: 38px;
+    height: 38px;
+    font-size: 1.6rem;
   }
 }
