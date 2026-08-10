@@ -127,6 +127,9 @@ export default function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedItemName, setSelectedItemName] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(0);
+  const [expandedMobileRows, setExpandedMobileRows] = useState<
+    Record<number, boolean>
+  >({});
 
   const getItemsPerPage = () =>
     typeof window !== "undefined" && window.innerWidth <= 640 ? 1 : 4;
@@ -158,6 +161,10 @@ export default function App() {
       ),
     [items, searchTerm],
   );
+
+  useEffect(() => {
+    setExpandedMobileRows({});
+  }, [searchTerm]);
 
   const handleParse = () => {
     const parsed = parseReceipt(receiptText);
@@ -294,67 +301,141 @@ export default function App() {
             <h2>Kết quả</h2>
             <p>{status || "Xem chi tiết giá và mặt hàng."}</p>
           </div>
-          <div className="pill">{filteredItems.length} mục</div>
         </div>
 
         {filteredItems.length === 0 ? (
           <p className="empty-state">Không tìm thấy mặt hàng phù hợp.</p>
         ) : (
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Mặt hàng</th>
-                  <th>Đơn vị</th>
-                  <th>Giá</th>
-                  <th>Giá lốc</th>
-                  <th>Giá thùng</th>
-                  <th>Xem hình</th>
-                </tr>
-              </thead>
-              <tbody>
-                {filteredItems.map((item, index) => {
-                  const imageUrl = getItemImage(item);
-                  return (
-                    <tr key={index}>
-                      <td>{item.name}</td>
-                      <td>{item.unit || "—"}</td>
-                      <td>
-                        {item.price.toLocaleString("vi-VN")} đ/
-                        {item.unit || "sp"}
-                      </td>
-                      <td>
-                        {item.pack
-                          ? item.pack?.toLocaleString("vi-VN") + " đ/lốc"
-                          : "—"}
-                      </td>
-                      <td>
-                        {item.box
-                          ? item.box?.toLocaleString("vi-VN") + " đ/thùng"
-                          : "—"}
-                      </td>
-                      <td>
-                        <button
-                          onClick={() => openImagePopup(imageUrl, item.name)}
-                          style={{
-                            background: "none",
-                            border: "none",
-                            color: "#007bff",
-                            cursor: "pointer",
-                            textDecoration: "underline",
-                            padding: "4px 8px",
-                            fontSize: "14px",
-                          }}
-                        >
-                          📷 Xem hình
-                        </button>
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
+          <>
+            <div className="mobile-results-list">
+              {filteredItems.map((item, index) => {
+                const imageUrl = getItemImage(item);
+                const isExpanded = !!expandedMobileRows[index];
+
+                return (
+                  <details
+                    key={`${item.name}-${index}`}
+                    className="mobile-accordion"
+                    open={isExpanded}
+                    onToggle={(event) => {
+                      const target = event.currentTarget;
+                      setExpandedMobileRows((prev) => ({
+                        ...prev,
+                        [index]: target.open,
+                      }));
+                    }}
+                  >
+                    <summary className="mobile-summary">
+                      <div className="mobile-summary-main">
+                        <span className="mobile-result-dot" aria-hidden="true" />
+                        <span className="mobile-result-name">{item.name}</span>
+                        <span className="mobile-result-unit">
+                          ({item.unit || "sp"})
+                        </span>
+                      </div>
+
+                      <div className="mobile-summary-side">
+                        <span className="mobile-result-price">
+                          {item.price.toLocaleString("vi-VN")} đ/
+                          {item.unit || "sp"}
+                        </span>
+                      </div>
+                    </summary>
+
+                    <div className="mobile-result-details">
+                      <div className="mobile-detail-grid">
+                        <div className="mobile-detail-box">
+                          <span className="mobile-detail-label">Giá Lốc</span>
+                          <span className="mobile-detail-value">
+                            {item.pack
+                              ? item.pack.toLocaleString("vi-VN") + " đ"
+                              : "—"}
+                          </span>
+                        </div>
+                        <div className="mobile-detail-box">
+                          <span className="mobile-detail-label">Giá Thùng</span>
+                          <span className="mobile-detail-value">
+                            {item.box
+                              ? item.box.toLocaleString("vi-VN") + " đ"
+                              : "—"}
+                          </span>
+                        </div>
+                      </div>
+
+                      <button
+                        type="button"
+                        className="mobile-image-button"
+                        onClick={(event) => {
+                          event.preventDefault();
+                          event.stopPropagation();
+                          openImagePopup(imageUrl, item.name);
+                        }}
+                      >
+                        <i className="fa-solid fa-camera" aria-hidden="true" />
+                        Xem hình ảnh
+                      </button>
+                    </div>
+                  </details>
+                );
+              })}
+            </div>
+
+            <div className="table-wrap desktop-results-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Mặt hàng</th>
+                    <th>Đơn vị</th>
+                    <th>Giá</th>
+                    <th>Giá lốc</th>
+                    <th>Giá thùng</th>
+                    <th>Xem hình</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {filteredItems.map((item, index) => {
+                    const imageUrl = getItemImage(item);
+                    return (
+                      <tr key={index}>
+                        <td>{item.name}</td>
+                        <td>{item.unit || "—"}</td>
+                        <td>
+                          {item.price.toLocaleString("vi-VN")} đ/
+                          {item.unit || "sp"}
+                        </td>
+                        <td>
+                          {item.pack
+                            ? item.pack?.toLocaleString("vi-VN") + " đ/lốc"
+                            : "—"}
+                        </td>
+                        <td>
+                          {item.box
+                            ? item.box?.toLocaleString("vi-VN") + " đ/thùng"
+                            : "—"}
+                        </td>
+                        <td>
+                          <button
+                            onClick={() => openImagePopup(imageUrl, item.name)}
+                            style={{
+                              background: "none",
+                              border: "none",
+                              color: "#007bff",
+                              cursor: "pointer",
+                              textDecoration: "underline",
+                              padding: "4px 8px",
+                              fontSize: "14px",
+                            }}
+                          >
+                            📷 Xem hình
+                          </button>
+                        </td>
+                      </tr>
+                    );
+                  })}
+                </tbody>
+              </table>
+            </div>
+          </>
         )}
       </section>
 
