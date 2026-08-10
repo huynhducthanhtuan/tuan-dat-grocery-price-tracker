@@ -315,7 +315,7 @@ export default function App() {
                 return (
                   <details
                     key={`${item.name}-${index}`}
-                    className="mobile-accordion"
+                    className={"mobile-accordion " + (isExpanded ? "open" : '')}
                     open={isExpanded}
                     onToggle={(event) => {
                       const target = event.currentTarget;
@@ -329,9 +329,6 @@ export default function App() {
                       <div className="mobile-summary-main">
                         <span className="mobile-result-dot" aria-hidden="true" />
                         <span className="mobile-result-name">{item.name}</span>
-                        <span className="mobile-result-unit">
-                          ({item.unit || "sp"})
-                        </span>
                       </div>
 
                       <div className="mobile-summary-side">
@@ -563,10 +560,11 @@ export default function App() {
             maxWidth: "1200px",
           }}
         >
-          <p>
-            © {new Date().getFullYear()} Tạp hóa Tuấn Đạt. Phát triển bởi{" "}
-            <b>Huỳnh Đức Thanh Tuấn</b>
+          <p style={{marginBottom: 0}}>
+            © {new Date().getFullYear()} Tạp hóa Tuấn Đạt.
           </p>
+          <p style={{marginBottom: 0,marginTop: '5px'}}>Phát triển bởi</p>
+          <b>Huỳnh Đức Thanh Tuấn & Nguyễn Gia Hiền</b>
         </div>
       </footer>
     </div>
