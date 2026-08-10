@@ -278,5 +278,45 @@
     "pack": null,
     "box": 265000,
     "image": "bia_anh.jpg"
+  },
+  {
+    "name": "bánh oxi lays",
+    "unit": "gói",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "image": "banh_oxi_lays.jpg"
+  },
+  {
+    "name": "bánh oxi poca",
+    "unit": "gói",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "image": "banh_oxi_poca.jpg"
+  },
+  {
+    "name": "bánh oxi oishi",
+    "unit": "gói",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "image": "banh_oxi_oishi.jpg"
+  },
+  {
+    "name": "bánh nabati",
+    "unit": "gói",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "image": "banh_nabati.jpg"
+  },
+  {
+    "name": "bánh mỳ sandwich",
+    "unit": "gói",
+    "price": 15000,
+    "pack": null,
+    "box": null,
+    "image": "banh_my_sandwich.jpg"
   }
 ]
