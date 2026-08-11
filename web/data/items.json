@@ -280,6 +280,22 @@
     "image": "bia_anh.jpg"
   },
   {
+    "name": "rượu vodka nhỏ",
+    "unit": "chai",
+    "price": 45000,
+    "pack": null,
+    "box": null,
+    "image": "ruou_vodka.jpg"
+  },
+  {
+    "name": "rượu vodka lớn",
+    "unit": "chai",
+    "price": 65000,
+    "pack": null,
+    "box": null,
+    "image": "ruou_vodka.jpg"
+  },
+  {
     "name": "bánh oxi lays",
     "unit": "gói",
     "price": 10000,
