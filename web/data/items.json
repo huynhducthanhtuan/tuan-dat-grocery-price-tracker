@@ -334,5 +334,101 @@
     "pack": null,
     "box": null,
     "image": "banh_my_sandwich.jpg"
+  },
+  {
+    "name": "dầu đậu nành tường an",
+    "unit": "chai",
+    "price": 55000,
+    "pack": null,
+    "box": null,
+    "image": "dau_dau_nanh_tuong_an.jpg"
+  },
+  {
+    "name": "tương chinsu",
+    "unit": "chai",
+    "price": 18000,
+    "pack": null,
+    "box": null,
+    "image": "tuong_chinsu.jpg"
+  },
+  {
+    "name": "tương thường",
+    "unit": "chai",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "image": "tuong_thuong.jpg"
+  },
+  {
+    "name": "nước mắm ông tây",
+    "unit": "chai",
+    "price": 18000,
+    "pack": null,
+    "box": null,
+    "image": "nuoc_mam_ong_tay.jpg"
+  },
+  {
+    "name": "nước mắm nam ngư",
+    "unit": "chai",
+    "price": 20000,
+    "pack": null,
+    "box": null,
+    "image": "nuoc_mam_nam_ngu.jpg"
+  },
+  {
+    "name": "xì dầu maggi",
+    "unit": "chai",
+    "price": 17000,
+    "pack": null,
+    "box": null,
+    "image": "xi_dau_maggi.jpg"
+  },
+  {
+    "name": "xì dầu phú sĩ",
+    "unit": "chai",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "image": "xi_dau_phu_si.jpg"
+  },
+  {
+    "name": "muối ăn iot",
+    "unit": "gói",
+    "price": 2000,
+    "pack": null,
+    "box": null,
+    "image": "muoi_an_iot.jpg"
+  },
+  {
+    "name": "hạt nêm knorr nhỏ",
+    "unit": "gói",
+    "price": 15000,
+    "pack": null,
+    "box": null,
+    "image": "hat_nem_knorr_nho.jpg"
+  },
+  {
+    "name": "hạt nêm knorr lớn",
+    "unit": "gói",
+    "price": 25000,
+    "pack": null,
+    "box": null,
+    "image": "hat_nem_knorr_lon.jpg"
+  },
+  {
+    "name": "mì chính nhỏ",
+    "unit": "gói",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "image": "mi_chinh_nho.jpg"
+  },
+  {
+    "name": "mì chính lớn",
+    "unit": "gói",
+    "price": 27000,
+    "pack": null,
+    "box": null,
+    "image": "mi_chinh_lon.jpg"
   }
 ]
