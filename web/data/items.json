@@ -569,19 +569,19 @@
     "image": "giavi/hat_nem_knorr_lon.jpg"
   },
   {
-    "name": "Mì chính nhỏ",
+    "name": "Mì chính Vedan nhỏ",
     "unit": "gói",
     "price": 10000,
     "pack": null,
     "box": null,
-    "image": "giavi/mi_chinh_nho.jpg"
+    "image": "giavi/mi_chinh_vedan_nho.jpg"
   },
   {
-    "name": "Mì chính lớn",
+    "name": "Mì chính Bột ngọt lớn",
     "unit": "gói",
     "price": 27000,
     "pack": null,
     "box": null,
-    "image": "giavi/mi_chinh_lon.jpg"
+    "image": "giavi/mi_chinh_bot_ngot_lon.jpg"
   }
 ]
