@@ -344,76 +344,76 @@
     "image": "thuoc_rave.jpg"
   },
   {
-    "name": "Mỳ hảo hảo",
+    "name": "Mì hảo hảo",
     "unit": "gói",
     "price": 4500,
     "pack": null,
     "box": null,
-    "image": "my_hao_hao.jpg"
+    "image": "mi_hao_hao.jpg"
   },
   {
-    "name": "Mỳ 3 miền",
+    "name": "Mì 3 miền",
     "unit": "gói",
     "price": 4000,
     "pack": null,
     "box": null,
-    "image": "my_3_mien.jpg"
+    "image": "mi_3_mien.jpg"
   },
   {
-    "name": "Mỳ 4 phút koreno",
+    "name": "Mì 4 phút koreno",
     "unit": "gói",
     "price": 8000,
     "pack": null,
     "box": null,
-    "image": "my_4_phut_koreno.jpg"
+    "image": "mi_4_phut_koreno.jpg"
   },
   {
-    "name": "Mỳ lẩu thái",
+    "name": "Mì lẩu thái",
     "unit": "gói",
     "price": 8000,
     "pack": null,
     "box": null,
-    "image": "my_lau_thai.jpg"
+    "image": "mi_lau_thai.jpg"
   },
   {
-    "name": "Mỳ gấu đỏ",
+    "name": "Mì gấu đỏ",
     "unit": "gói",
     "price": 3000,
     "pack": null,
     "box": null,
-    "image": "my_gau_do.jpg"
+    "image": "mi_gau_do.jpg"
   },
   {
-    "name": "Mỳ kokomi",
+    "name": "Mì kokomi",
     "unit": "gói",
     "price": 3000,
     "pack": null,
     "box": null,
-    "image": "my_kokomi.jpg"
+    "image": "mi_kokomi.jpg"
   },
   {
-    "name": "Mỳ ly cung đình",
+    "name": "Mì ly cung đình",
     "unit": "ly",
     "price": 10000,
     "pack": null,
     "box": null,
-    "image": "my_ly_cung_dinh.jpg"
+    "image": "mi_ly_cung_dinh.jpg"
   },
   {
-    "name": "Mỳ ly omachi",
+    "name": "Mì ly omachi",
     "unit": "ly",
     "price": 11000,
     "pack": null,
     "box": null,
-    "image": "my_ly_omachi.jpg"
+    "image": "mi_ly_omachi.jpg"
   },
   {
-    "name": "Mỳ ly lẩu thái tôm",
+    "name": "Mì ly lẩu thái modern",
     "unit": "ly",
     "price": 11000,
     "pack": null,
     "box": null,
-    "image": "my_ly_lau_thai.jpg"
+    "image": "mi_ly_lau_thai_modern.jpg"
   },
   {
     "name": "Phở cung đình",
