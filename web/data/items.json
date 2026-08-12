@@ -296,6 +296,159 @@
     "image": "ruou_vodka.jpg"
   },
   {
+    "name": "thuốc con mèo (craven)",
+    "unit": "gói",
+    "price": 18000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_con_meo_craven.jpg"
+  },
+  {
+    "name": "thuốc sài gòn bạc",
+    "unit": "gói",
+    "price": 17000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_sai_gon_bac.jpg"
+  },
+  {
+    "name": "thuốc con ngựa lớn",
+    "unit": "gói",
+    "price": 28000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_con_ngua_lon.jpg"
+  },
+  {
+    "name": "thuốc con ngựa nhỏ",
+    "unit": "gói",
+    "price": 17000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_con_ngua_nho.jpg"
+  },
+  {
+    "name": "thuốc chim xanh (frince)",
+    "unit": "gói",
+    "price": 11000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_chim_xanh_frince.jpg"
+  },
+  {
+    "name": "thuốc rave",
+    "unit": "gói",
+    "price": 12000,
+    "pack": null,
+    "box": null,
+    "image": "thuoc_rave.jpg"
+  },
+  {
+    "name": "Mỳ hảo hảo",
+    "unit": "gói",
+    "price": 4500,
+    "pack": null,
+    "box": null,
+    "image": "my_hao_hao.jpg"
+  },
+  {
+    "name": "Mỳ 3 miền",
+    "unit": "gói",
+    "price": 4000,
+    "pack": null,
+    "box": null,
+    "image": "my_3_mien.jpg"
+  },
+  {
+    "name": "Mỳ 4 phút koreno",
+    "unit": "gói",
+    "price": 8000,
+    "pack": null,
+    "box": null,
+    "image": "my_4_phut_koreno.jpg"
+  },
+  {
+    "name": "Mỳ lẩu thái",
+    "unit": "gói",
+    "price": 8000,
+    "pack": null,
+    "box": null,
+    "image": "my_lau_thai.jpg"
+  },
+  {
+    "name": "Mỳ gấu đỏ",
+    "unit": "gói",
+    "price": 3000,
+    "pack": null,
+    "box": null,
+    "image": "my_gau_do.jpg"
+  },
+  {
+    "name": "Mỳ kokomi",
+    "unit": "gói",
+    "price": 3000,
+    "pack": null,
+    "box": null,
+    "image": "my_kokomi.jpg"
+  },
+  {
+    "name": "Mỳ ly cung đình",
+    "unit": "ly",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "image": "my_ly_cung_dinh.jpg"
+  },
+  {
+    "name": "Mỳ ly omachi",
+    "unit": "ly",
+    "price": 11000,
+    "pack": null,
+    "box": null,
+    "image": "my_ly_omachi.jpg"
+  },
+  {
+    "name": "Mỳ ly lẩu thái tôm",
+    "unit": "ly",
+    "price": 11000,
+    "pack": null,
+    "box": null,
+    "image": "my_ly_lau_thai.jpg"
+  },
+  {
+    "name": "Phở cung đình",
+    "unit": "gói",
+    "price": 9000,
+    "pack": null,
+    "box": null,
+    "image": "pho_cung_dinh.jpg"
+  },
+  {
+    "name": "Hủ tiếu cung đình",
+    "unit": "gói",
+    "price": 9000,
+    "pack": null,
+    "box": null,
+    "image": "hu_tieu_cung_dinh.jpg"
+  },
+  {
+    "name": "Cháo gấu đỏ",
+    "unit": "gói",
+    "price": 4000,
+    "pack": null,
+    "box": null,
+    "image": "chao_gau_do.jpg"
+  },
+  {
+    "name": "Cháo yến",
+    "unit": "gói",
+    "price": 8000,
+    "pack": null,
+    "box": null,
+    "image": "chao_yen.jpg"
+  },
+
+  {
     "name": "bánh oxi lays",
     "unit": "gói",
     "price": 10000,
