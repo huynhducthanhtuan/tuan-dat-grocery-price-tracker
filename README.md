@@ -1,14 +1,14 @@
 # Trích xuất giá sản phẩm - Tạp hóa Tuấn Đạt
 
-Web application hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho cửa hàng tạp hóa **Tuấn Đạt**.
+Website hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho cửa hàng tạp hóa **Tuấn Đạt**.
 
-## ✨ Features
+## ✨ Tính năng
 
 - 💰 Trích xuất giá sản phẩm
 - 🔎 Tìm kiếm sản phẩm
 - 📱 Giao diện responsive
 
-## 🛠️ Tech Stack
+## 🛠️ Công nghệ
 
 - React
 - TypeScript
@@ -16,14 +16,14 @@ Web application hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho
 - CSS
 - Vercel
 
-## 🚀 Getting Started
+## 🚀 Cài đặt
 
-### Prerequisites
+### Công cụ cần thiết
 
 - Node.js 18+
 - npm
 
-### Installation
+### Hướng dẫn cài đặt
 
 Clone repository:
 
@@ -31,19 +31,19 @@ Clone repository:
 git clone https://github.com/huynhducthanhtuan/tuan-dat-grocery-price-tracker.git
 ```
 
-Go to web folder:
+Di chuyển đến folder làm việc chính - folder web:
 
 ```bash
 cd tuan-dat-grocery-price-tracker/web
 ```
 
-Install dependencies:
+Cài đặt dependencies:
 
 ```bash
 npm install
 ```
 
-Run development server:
+Khởi chạy development server:
 
 ```bash
 npm run dev
@@ -55,6 +55,6 @@ npm run dev
 http://localhost:5173
 ```
 
-## 📄 License
+## 📄 Bản quyền
 
-This project is licensed under the [MIT License](LICENSE).
+[MIT License](LICENSE).
