@@ -67,7 +67,7 @@
     "name": "Coca chai lớn",
     "unit": "chai",
     "price": 18000,
-    "pack": 102000,
+    "pack": 105000,
     "box": null,
     "image": "douong/coca_chai_lon.jpg"
   },
@@ -88,6 +88,30 @@
     "image": "douong/coca_lon.jpg"
   },
   {
+    "name": "Pepsi chai lớn",
+    "unit": "chai",
+    "price": 18000,
+    "pack": 105000,
+    "box": null,
+    "image": "douong/pepsi_chai_lon.jpg"
+  },
+  {
+    "name": "Pepsi chai nhỏ",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 30000,
+    "box": null,
+    "image": "douong/pepsi_chai_nho.jpg"
+  },
+  {
+    "name": "Pepsi lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "image": "douong/pepsi_lon.jpg"
+  },
+  {
     "name": "Sprite chai nhỏ",
     "unit": "chai",
     "price": 5000,
@@ -99,7 +123,7 @@
     "name": "Sprite chai lớn",
     "unit": "chai",
     "price": 18000,
-    "pack": 102000,
+    "pack": 105000,
     "box": null,
     "image": "douong/sprite_chai_lon.jpg"
   },
@@ -123,7 +147,7 @@
     "name": "Fanta chai lớn",
     "unit": "chai",
     "price": 18000,
-    "pack": 102000,
+    "pack": 105000,
     "box": null,
     "image": "douong/fanta_chai_lon.jpg"
   },
@@ -238,6 +262,14 @@
     "pack": 38000,
     "box": null,
     "image": "sua/milo_lon.jpg"
+  },
+  {
+    "name": "Sữa hộp Fami nhỏ",
+    "unit": "hộp",
+    "price": 5000,
+    "pack": 28000,
+    "box": null,
+    "image": "sua/sua_hop_fami_nho.jpg"
   },
   {
     "name": "Bia Tiger lùn",
