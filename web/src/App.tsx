@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import initialItems from "../data/items.json";
-import { getItemImage, fallbackImages } from "./helpers/itemImages";
+import { getItemImage } from "./helpers/itemImages";
 import { Item } from "./models/Item";
 
 const normalizeUnit = (unit: string): string => {
@@ -70,11 +70,7 @@ const parseReceipt = (text: string): Item[] => {
       unit: String(currentItem.unit || ""),
       pack: typeof currentItem.pack === "number" ? currentItem.pack : undefined,
       box: typeof currentItem.box === "number" ? currentItem.box : undefined,
-      image:
-        typeof currentItem.image === "string"
-          ? currentItem.image
-          : fallbackImages[String(currentItem.name || "").toLowerCase()] ||
-            undefined,
+      image: currentItem.image,
     });
     currentItem = { unit: "" };
   };
@@ -315,7 +311,7 @@ export default function App() {
                 return (
                   <details
                     key={`${item.name}-${index}`}
-                    className={"mobile-accordion " + (isExpanded ? "open" : '')}
+                    className={"mobile-accordion " + (isExpanded ? "open" : "")}
                     open={isExpanded}
                     onToggle={(event) => {
                       const target = event.currentTarget;
@@ -327,7 +323,10 @@ export default function App() {
                   >
                     <summary className="mobile-summary">
                       <div className="mobile-summary-main">
-                        <span className="mobile-result-dot" aria-hidden="true" />
+                        <span
+                          className="mobile-result-dot"
+                          aria-hidden="true"
+                        />
                         <span className="mobile-result-name">{item.name}</span>
                       </div>
 
@@ -560,10 +559,10 @@ export default function App() {
             maxWidth: "1200px",
           }}
         >
-          <p style={{marginBottom: 0}}>
+          <p style={{ marginBottom: 0 }}>
             © {new Date().getFullYear()} Tạp hóa Tuấn Đạt.
           </p>
-          <p style={{marginBottom: 0,marginTop: '5px'}}>Phát triển bởi</p>
+          <p style={{ marginBottom: 0, marginTop: "5px" }}>Phát triển bởi</p>
           <b>Huỳnh Đức Thanh Tuấn & Nguyễn Gia Hiền</b>
         </div>
       </footer>
