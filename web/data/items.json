@@ -408,6 +408,14 @@
     "image": "mitom/mi_lau_thai.jpg"
   },
   {
+    "name": "Mì lẩu nấm Reeva",
+    "unit": "gói",
+    "price": 8000,
+    "pack": null,
+    "box": null,
+    "image": "mitom/mi_lau_nam_reeva.jpg"
+  },
+  {
     "name": "Mì gấu đỏ",
     "unit": "gói",
     "price": 3000,
@@ -422,6 +430,14 @@
     "pack": null,
     "box": null,
     "image": "mitom/mi_kokomi.jpg"
+  },
+  {
+    "name": "Mì Omachi",
+    "unit": "gói",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "image": "mitom/mi_omachi.jpg"
   },
   {
     "name": "Mì ly Cung Đình",
