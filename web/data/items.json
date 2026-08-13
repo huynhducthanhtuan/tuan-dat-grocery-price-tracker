@@ -631,5 +631,13 @@
     "pack": null,
     "box": null,
     "image": "giavi/mi_chinh_bot_ngot_lon.jpg"
+  },
+  {
+    "name": "Nửa ký đường",
+    "unit": "bịch",
+    "price": 12000,
+    "pack": null,
+    "box": null,
+    "image": "giavi/nua_ky_duong.jpg"
   }
 ]
