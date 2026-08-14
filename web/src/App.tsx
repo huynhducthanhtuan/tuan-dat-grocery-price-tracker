@@ -22,12 +22,19 @@ const normalizeUnit = (unit: string): string => {
 
 const parseAmount = (text: string): number => parseFloat(text.replace(/\./g, "").replace(",", "."));
 
+const formatItemName = (name: string): string => {
+  return name
+    .split(" ")
+    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(" ");
+};
+
 const normalizeItem = (item: any): Item => {
   const price =
     typeof item.price === "number" ? item.price : parseAmount(String(item.price || "0"));
 
   return {
-    name: String(item.name || ""),
+    name: formatItemName(String(item.name || "")),
     price,
     unit: String(item.unit || ""),
     pack:
@@ -65,7 +72,7 @@ const parseReceipt = (text: string): Item[] => {
     const price = typeof currentItem.price === "number" ? currentItem.price : 0;
 
     items.push({
-      name: String(currentItem.name),
+      name: formatItemName(String(currentItem.name)),
       price,
       unit: String(currentItem.unit || ""),
       pack: typeof currentItem.pack === "number" ? currentItem.pack : undefined,

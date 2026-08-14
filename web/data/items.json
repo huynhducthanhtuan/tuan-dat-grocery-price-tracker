@@ -396,7 +396,7 @@
     "image": "biaruou/ruou_vodka.jpg"
   },
   {
-    "name": "Thuốc con mèo (craven)",
+    "name": "Thuốc con mèo craven",
     "unit": "gói",
     "price": 18000,
     "pack": null,
@@ -432,7 +432,7 @@
     "image": "thuocla/thuoc_con_ngua_nho.jpg"
   },
   {
-    "name": "Thuốc chim xanh (frince)",
+    "name": "Thuốc chim xanh frince",
     "unit": "gói",
     "price": 11000,
     "pack": null,
