@@ -20,14 +20,11 @@ const normalizeUnit = (unit: string): string => {
   return map[normalized] || normalized;
 };
 
-const parseAmount = (text: string): number =>
-  parseFloat(text.replace(/\./g, "").replace(",", "."));
+const parseAmount = (text: string): number => parseFloat(text.replace(/\./g, "").replace(",", "."));
 
 const normalizeItem = (item: any): Item => {
   const price =
-    typeof item.price === "number"
-      ? item.price
-      : parseAmount(String(item.price || "0"));
+    typeof item.price === "number" ? item.price : parseAmount(String(item.price || "0"));
 
   return {
     name: String(item.name || ""),
@@ -42,9 +39,7 @@ const normalizeItem = (item: any): Item => {
         ? Number(item.box)
         : undefined,
     strip:
-      item.strip !== undefined &&
-      item.strip !== null &&
-      !isNaN(Number(item.strip))
+      item.strip !== undefined && item.strip !== null && !isNaN(Number(item.strip))
         ? Number(item.strip)
         : undefined,
     image: item.image ? String(item.image) : undefined,
@@ -75,8 +70,7 @@ const parseReceipt = (text: string): Item[] => {
       unit: String(currentItem.unit || ""),
       pack: typeof currentItem.pack === "number" ? currentItem.pack : undefined,
       box: typeof currentItem.box === "number" ? currentItem.box : undefined,
-      strip:
-        typeof currentItem.strip === "number" ? currentItem.strip : undefined,
+      strip: typeof currentItem.strip === "number" ? currentItem.strip : undefined,
       image: currentItem.image,
     });
     currentItem = { unit: "" };
@@ -87,9 +81,7 @@ const parseReceipt = (text: string): Item[] => {
     if (priceLineMatch) {
       const label = priceLineMatch[1].toLowerCase();
       const amount = parseAmount(priceLineMatch[2]);
-      const unit = priceLineMatch[3]
-        ? normalizeUnit(priceLineMatch[3])
-        : currentItem.unit || "";
+      const unit = priceLineMatch[3] ? normalizeUnit(priceLineMatch[3]) : currentItem.unit || "";
       if (label === "lốc") {
         currentItem.pack = amount;
         currentItem.unit = currentItem.unit || "lốc";
@@ -133,12 +125,9 @@ export default function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedItemName, setSelectedItemName] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(0);
-  const [expandedMobileRows, setExpandedMobileRows] = useState<
-    Record<number, boolean>
-  >({});
+  const [expandedMobileRows, setExpandedMobileRows] = useState<Record<number, boolean>>({});
 
-  const getItemsPerPage = () =>
-    typeof window !== "undefined" && window.innerWidth <= 640 ? 1 : 4;
+  const getItemsPerPage = () => (typeof window !== "undefined" && window.innerWidth <= 640 ? 1 : 4);
 
   const [itemsPerPage, setItemsPerPage] = useState<number>(getItemsPerPage);
 
@@ -157,15 +146,12 @@ export default function App() {
   const safeCurrentPage = Math.min(currentPage, totalPages - 1);
   const visibleItems = items.slice(
     safeCurrentPage * itemsPerPage,
-    safeCurrentPage * itemsPerPage + itemsPerPage,
+    safeCurrentPage * itemsPerPage + itemsPerPage
   );
 
   const filteredItems = useMemo(
-    () =>
-      items.filter((item) =>
-        item.name.toLowerCase().includes(searchTerm.toLowerCase()),
-      ),
-    [items, searchTerm],
+    () => items.filter((item) => item.name.toLowerCase().includes(searchTerm.toLowerCase())),
+    [items, searchTerm]
   );
 
   useEffect(() => {
@@ -180,9 +166,7 @@ export default function App() {
     }
 
     setItems((prev: Item[]) => [...parsed, ...prev]);
-    setStatus(
-      `✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`,
-    );
+    setStatus(`✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`);
     setReceiptText("");
   };
 
@@ -207,8 +191,7 @@ export default function App() {
           <span className="eyebrow">Tạp hóa Tuấn Đạt</span>
           <h1>Trích xuất giá sản phẩm</h1>
           <p>
-            Theo dõi giá hàng tạp hoá của Tuấn Đạt. Trích xuất giá và quản lý
-            danh sách mặt hàng.
+            Theo dõi giá hàng tạp hoá của Tuấn Đạt. Trích xuất giá và quản lý danh sách mặt hàng.
           </p>
         </div>
       </header>
@@ -237,16 +220,9 @@ export default function App() {
             {visibleItems.map((item, index) => {
               const imageUrl = getItemImage(item);
               return (
-                <article
-                  key={`${item.name}-${safeCurrentPage}-${index}`}
-                  className="item-card"
-                >
+                <article key={`${item.name}-${safeCurrentPage}-${index}`} className="item-card">
                   {imageUrl ? (
-                    <img
-                      src={imageUrl}
-                      alt={item.name}
-                      className="item-card-image"
-                    />
+                    <img src={imageUrl} alt={item.name} className="item-card-image" />
                   ) : null}
                   <div className="item-card-content">
                     <div className="item-card-title">{item.name}</div>
@@ -256,21 +232,9 @@ export default function App() {
                         Giá: {item.price.toLocaleString("vi-VN")} đ/
                         {item.unit || "sp"}
                       </span>
-                      {item.pack && (
-                        <span>
-                          Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc
-                        </span>
-                      )}
-                      {item.box && (
-                        <span>
-                          Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng
-                        </span>
-                      )}
-                      {item.strip && (
-                        <span>
-                          Dây: {item.strip.toLocaleString("vi-VN")} đ/dây
-                        </span>
-                      )}
+                      {item.pack && <span>Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc</span>}
+                      {item.box && <span>Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng</span>}
+                      {item.strip && <span>Dây: {item.strip.toLocaleString("vi-VN")} đ/dây</span>}
                     </div>
                   </div>
                 </article>
@@ -282,9 +246,7 @@ export default function App() {
             type="button"
             className="arrow-button next"
             aria-label="Trang tiếp theo"
-            onClick={() =>
-              setCurrentPage((prev) => Math.min(prev + 1, totalPages - 1))
-            }
+            onClick={() => setCurrentPage((prev) => Math.min(prev + 1, totalPages - 1))}
             disabled={safeCurrentPage >= totalPages - 1}
           >
             ›
@@ -338,10 +300,7 @@ export default function App() {
                   >
                     <summary className="mobile-summary">
                       <div className="mobile-summary-main">
-                        <span
-                          className="mobile-result-dot"
-                          aria-hidden="true"
-                        />
+                        <span className="mobile-result-dot" aria-hidden="true" />
                         <span className="mobile-result-name">{item.name}</span>
                       </div>
 
@@ -358,25 +317,19 @@ export default function App() {
                         <div className="mobile-detail-box">
                           <span className="mobile-detail-label">Giá Lốc</span>
                           <span className="mobile-detail-value">
-                            {item.pack
-                              ? item.pack.toLocaleString("vi-VN") + " đ"
-                              : "—"}
+                            {item.pack ? item.pack.toLocaleString("vi-VN") + " đ" : "—"}
                           </span>
                         </div>
                         <div className="mobile-detail-box">
                           <span className="mobile-detail-label">Giá Thùng</span>
                           <span className="mobile-detail-value">
-                            {item.box
-                              ? item.box.toLocaleString("vi-VN") + " đ"
-                              : "—"}
+                            {item.box ? item.box.toLocaleString("vi-VN") + " đ" : "—"}
                           </span>
                         </div>
                         <div className="mobile-detail-box">
                           <span className="mobile-detail-label">Giá Dây</span>
                           <span className="mobile-detail-value">
-                            {item.strip
-                              ? item.strip.toLocaleString("vi-VN") + " đ"
-                              : "—"}
+                            {item.strip ? item.strip.toLocaleString("vi-VN") + " đ" : "—"}
                           </span>
                         </div>
                       </div>
@@ -420,17 +373,9 @@ export default function App() {
                         <td>{item.name}</td>
                         <td>{item.unit || "—"}</td>
                         <td>{item.price.toLocaleString("vi-VN")}</td>
-                        <td>
-                          {item.pack ? item.pack?.toLocaleString("vi-VN") : "—"}
-                        </td>
-                        <td>
-                          {item.box ? item.box?.toLocaleString("vi-VN") : "—"}
-                        </td>
-                        <td>
-                          {item.strip
-                            ? item.strip?.toLocaleString("vi-VN")
-                            : "—"}
-                        </td>
+                        <td>{item.pack ? item.pack?.toLocaleString("vi-VN") : "—"}</td>
+                        <td>{item.box ? item.box?.toLocaleString("vi-VN") : "—"}</td>
+                        <td>{item.strip ? item.strip?.toLocaleString("vi-VN") : "—"}</td>
                         <td>
                           <button
                             onClick={() => openImagePopup(imageUrl, item.name)}
@@ -581,9 +526,7 @@ export default function App() {
             maxWidth: "1200px",
           }}
         >
-          <p style={{ marginBottom: 0 }}>
-            © {new Date().getFullYear()} Tạp hóa Tuấn Đạt.
-          </p>
+          <p style={{ marginBottom: 0 }}>© {new Date().getFullYear()} Tạp hóa Tuấn Đạt.</p>
           <p style={{ marginBottom: 0, marginTop: "5px" }}>Phát triển bởi</p>
           <b>Huỳnh Đức Thanh Tuấn & Nguyễn Gia Hiền</b>
         </div>
