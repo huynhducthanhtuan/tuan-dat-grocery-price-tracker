@@ -7,7 +7,6 @@ const normalizeUnit = (unit: string): string => {
   const normalized = unit.toLowerCase().trim();
   const map: Record<string, string> = {
     lốc: "lốc",
-    lọ: "lon",
     lon: "lon",
     chai: "chai",
     gói: "gói",
@@ -15,7 +14,7 @@ const normalizeUnit = (unit: string): string => {
     miếng: "miếng",
     bịch: "bịch",
     thùng: "thùng",
-    c: "cái",
+    dây: "dây",
   };
 
   return map[normalized] || normalized;
@@ -42,6 +41,12 @@ const normalizeItem = (item: any): Item => {
       item.box !== undefined && item.box !== null && !isNaN(Number(item.box))
         ? Number(item.box)
         : undefined,
+    strip:
+      item.strip !== undefined &&
+      item.strip !== null &&
+      !isNaN(Number(item.strip))
+        ? Number(item.strip)
+        : undefined,
     image: item.image ? String(item.image) : undefined,
   };
 };
@@ -54,9 +59,9 @@ const parseReceipt = (text: string): Item[] => {
 
   const items: Item[] = [];
   const priceLineRegex =
-    /^\s*(giá|lốc)\s*[:\-]?\s*([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)(?:\s*\/\s*(chai|lon|lọ|lốc|bịch|gói|thùng|cái|c))?/i;
+    /^\s*(giá|lốc|dây)\s*[:\-]?\s*([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)(?:\s*\/\s*(chai|lon|lốc|bịch|gói|thùng|cái|dây))?/i;
   const inlinePriceRegex =
-    /([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)\s*\/\s*(chai|lon|lọ|lốc|bịch|gói|thùng|cái|c)/i;
+    /([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)\s*\/\s*(chai|lon|lốc|bịch|gói|thùng|cái|dây)/i;
 
   let currentItem: Partial<Item> = { unit: "" };
 
@@ -70,6 +75,8 @@ const parseReceipt = (text: string): Item[] => {
       unit: String(currentItem.unit || ""),
       pack: typeof currentItem.pack === "number" ? currentItem.pack : undefined,
       box: typeof currentItem.box === "number" ? currentItem.box : undefined,
+      strip:
+        typeof currentItem.strip === "number" ? currentItem.strip : undefined,
       image: currentItem.image,
     });
     currentItem = { unit: "" };
@@ -86,6 +93,9 @@ const parseReceipt = (text: string): Item[] => {
       if (label === "lốc") {
         currentItem.pack = amount;
         currentItem.unit = currentItem.unit || "lốc";
+      } else if (label === "dây") {
+        currentItem.strip = amount;
+        currentItem.unit = currentItem.unit || "dây";
       } else {
         currentItem.price = amount;
         currentItem.unit = unit || currentItem.unit || "chai";
@@ -256,6 +266,11 @@ export default function App() {
                           Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng
                         </span>
                       )}
+                      {item.strip && (
+                        <span>
+                          Dây: {item.strip.toLocaleString("vi-VN")} đ/dây
+                        </span>
+                      )}
                     </div>
                   </div>
                 </article>
@@ -356,6 +371,14 @@ export default function App() {
                               : "—"}
                           </span>
                         </div>
+                        <div className="mobile-detail-box">
+                          <span className="mobile-detail-label">Giá Dây</span>
+                          <span className="mobile-detail-value">
+                            {item.strip
+                              ? item.strip.toLocaleString("vi-VN") + " đ"
+                              : "—"}
+                          </span>
+                        </div>
                       </div>
 
                       <button
@@ -385,6 +408,7 @@ export default function App() {
                     <th>Giá</th>
                     <th>Giá lốc</th>
                     <th>Giá thùng</th>
+                    <th>Giá dây</th>
                     <th>Xem hình</th>
                   </tr>
                 </thead>
@@ -395,18 +419,16 @@ export default function App() {
                       <tr key={index}>
                         <td>{item.name}</td>
                         <td>{item.unit || "—"}</td>
+                        <td>{item.price.toLocaleString("vi-VN")}</td>
                         <td>
-                          {item.price.toLocaleString("vi-VN")} đ/
-                          {item.unit || "sp"}
+                          {item.pack ? item.pack?.toLocaleString("vi-VN") : "—"}
                         </td>
                         <td>
-                          {item.pack
-                            ? item.pack?.toLocaleString("vi-VN") + " đ/lốc"
-                            : "—"}
+                          {item.box ? item.box?.toLocaleString("vi-VN") : "—"}
                         </td>
                         <td>
-                          {item.box
-                            ? item.box?.toLocaleString("vi-VN") + " đ/thùng"
+                          {item.strip
+                            ? item.strip?.toLocaleString("vi-VN")
                             : "—"}
                         </td>
                         <td>
