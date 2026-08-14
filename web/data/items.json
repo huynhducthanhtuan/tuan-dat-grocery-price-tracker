@@ -225,6 +225,33 @@
     "image": "douong/nuoc_loc_aquafina.jpg"
   },
   {
+    "name": "Nước lọc number one",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 25000,
+    "box": null,
+    "strip": null,
+    "image": "douong/nuoc_loc_number_one.jpg"
+  },
+  {
+    "name": "Trà ô long tea plus",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "strip": null,
+    "image": "douong/tra_o_long_tea_plus.jpg"
+  },
+  {
+    "name": "Trà xanh fuze tea",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "box": null,
+    "strip": null,
+    "image": "douong/tra_xanh_fuze_tea.jpg"
+  },
+  {
     "name": "Xách yến lon Chấn Vinh",
     "unit": "xách",
     "price": 55000,
