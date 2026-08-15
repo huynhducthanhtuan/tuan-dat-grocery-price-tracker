@@ -1,141 +1,17 @@
 import { useEffect, useMemo, useState } from "react";
-import initialItems from "../data/items.json";
 import { getItemImage } from "./helpers/itemImages";
-import { Item } from "./models/Item";
-
-const normalizeUnit = (unit: string): string => {
-  const normalized = unit.toLowerCase().trim();
-  const map: Record<string, string> = {
-    lốc: "lốc",
-    lon: "lon",
-    chai: "chai",
-    gói: "gói",
-    cái: "cái",
-    miếng: "miếng",
-    bịch: "bịch",
-    thùng: "thùng",
-    dây: "dây",
-  };
-
-  return map[normalized] || normalized;
-};
-
-const parseAmount = (text: string): number => parseFloat(text.replace(/\./g, "").replace(",", "."));
-
-const formatItemName = (name: string): string => {
-  return name
-    .split(" ")
-    .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-    .join(" ");
-};
-
-const normalizeItem = (item: any): Item => {
-  const price =
-    typeof item.price === "number" ? item.price : parseAmount(String(item.price || "0"));
-
-  return {
-    name: formatItemName(String(item.name || "")),
-    price,
-    unit: String(item.unit || ""),
-    pack:
-      item.pack !== undefined && item.pack !== null && !isNaN(Number(item.pack))
-        ? Number(item.pack)
-        : undefined,
-    box:
-      item.box !== undefined && item.box !== null && !isNaN(Number(item.box))
-        ? Number(item.box)
-        : undefined,
-    strip:
-      item.strip !== undefined && item.strip !== null && !isNaN(Number(item.strip))
-        ? Number(item.strip)
-        : undefined,
-    image: item.image ? String(item.image) : undefined,
-  };
-};
-
-const parseReceipt = (text: string): Item[] => {
-  const lines = text
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter(Boolean);
-
-  const items: Item[] = [];
-  const priceLineRegex =
-    /^\s*(giá|lốc|dây)\s*[:\-]?\s*([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)(?:\s*\/\s*(chai|lon|lốc|bịch|gói|thùng|cái|dây))?/i;
-  const inlinePriceRegex =
-    /([0-9]+(?:[.,][0-9]{1,2})?)\s*(?:đ|vnd|vnđ|d|k|k?c?)\s*\/\s*(chai|lon|lốc|bịch|gói|thùng|cái|dây)/i;
-
-  let currentItem: Partial<Item> = { unit: "" };
-
-  const finalizeItem = () => {
-    if (!currentItem.name) return;
-    const price = typeof currentItem.price === "number" ? currentItem.price : 0;
-
-    items.push({
-      name: formatItemName(String(currentItem.name)),
-      price,
-      unit: String(currentItem.unit || ""),
-      pack: typeof currentItem.pack === "number" ? currentItem.pack : undefined,
-      box: typeof currentItem.box === "number" ? currentItem.box : undefined,
-      strip: typeof currentItem.strip === "number" ? currentItem.strip : undefined,
-      image: currentItem.image,
-    });
-    currentItem = { unit: "" };
-  };
-
-  for (const line of lines) {
-    const priceLineMatch = line.match(priceLineRegex);
-    if (priceLineMatch) {
-      const label = priceLineMatch[1].toLowerCase();
-      const amount = parseAmount(priceLineMatch[2]);
-      const unit = priceLineMatch[3] ? normalizeUnit(priceLineMatch[3]) : currentItem.unit || "";
-      if (label === "lốc") {
-        currentItem.pack = amount;
-        currentItem.unit = currentItem.unit || "lốc";
-      } else if (label === "dây") {
-        currentItem.strip = amount;
-        currentItem.unit = currentItem.unit || "dây";
-      } else {
-        currentItem.price = amount;
-        currentItem.unit = unit || currentItem.unit || "chai";
-      }
-      continue;
-    }
-
-    const inlineMatch = line.match(inlinePriceRegex);
-    if (inlineMatch) {
-      currentItem.price = parseAmount(inlineMatch[1]);
-      currentItem.unit = normalizeUnit(inlineMatch[2]);
-      continue;
-    }
-
-    if (currentItem.name) {
-      finalizeItem();
-    }
-    currentItem.name = line;
-    currentItem.unit = "";
-  }
-
-  finalizeItem();
-  return items;
-};
+import { normalizeItem } from "./helpers/itemHelper";
+import initialItems from "../data/items.json";
 
 export default function App() {
-  const [receiptText, setReceiptText] = useState<string>("");
-  const [items, setItems] = useState<Item[]>(() => {
-    const normalizedItems = (initialItems as any[]).map(normalizeItem);
-    console.log("✅ Loaded items from JSON:", normalizedItems.length);
-    return normalizedItems;
-  });
+  const items = (initialItems as any[]).map(normalizeItem);
   const [searchTerm, setSearchTerm] = useState<string>("");
-  const [status, setStatus] = useState<string>("");
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [selectedItemName, setSelectedItemName] = useState<string>("");
   const [currentPage, setCurrentPage] = useState<number>(0);
   const [expandedMobileRows, setExpandedMobileRows] = useState<Record<number, boolean>>({});
 
   const getItemsPerPage = () => (typeof window !== "undefined" && window.innerWidth <= 640 ? 1 : 4);
-
   const [itemsPerPage, setItemsPerPage] = useState<number>(getItemsPerPage);
 
   useEffect(() => {
@@ -164,18 +40,6 @@ export default function App() {
   useEffect(() => {
     setExpandedMobileRows({});
   }, [searchTerm]);
-
-  const handleParse = () => {
-    const parsed = parseReceipt(receiptText);
-    if (parsed.length === 0) {
-      setStatus("Không tìm thấy mặt hàng hợp lệ");
-      return;
-    }
-
-    setItems((prev: Item[]) => [...parsed, ...prev]);
-    setStatus(`✅ Đã thêm ${parsed.length} mặt hàng mới (chỉ hiển thị tạm thời)`);
-    setReceiptText("");
-  };
 
   const openImagePopup = (imageUrl: string | undefined, itemName: string) => {
     if (imageUrl) {
@@ -279,7 +143,7 @@ export default function App() {
         <div className="status-bar">
           <div>
             <h2>Kết quả</h2>
-            <p>{status || "Xem chi tiết giá và mặt hàng."}</p>
+            <p>Xem chi tiết giá và mặt hàng.</p>
           </div>
         </div>
 
