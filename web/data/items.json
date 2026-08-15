@@ -99,7 +99,7 @@
     "image": "douong/coca_chai_lon.jpg"
   },
   {
-    "name": "Coca chai nhỏ",
+    "name": "Coca nhí",
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
@@ -126,7 +126,7 @@
     "image": "douong/pepsi_chai_lon.jpg"
   },
   {
-    "name": "Pepsi chai nhỏ",
+    "name": "Pepsi nhí",
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
@@ -162,9 +162,9 @@
     "image": "douong/7up_chai_thuy_tinh.jpg"
   },
   {
-    "name": "7up chai nhỏ",
+    "name": "7up nhí",
     "unit": "chai",
-    "price": 10000,
+    "price": 5000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -180,7 +180,7 @@
     "image": "douong/7up_lon.jpg"
   },
   {
-    "name": "Sprite chai nhỏ",
+    "name": "Sprite nhí",
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
@@ -207,7 +207,7 @@
     "image": "douong/sprite_lon.jpg"
   },
   {
-    "name": "Fanta chai nhỏ",
+    "name": "Fanta nhí",
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
