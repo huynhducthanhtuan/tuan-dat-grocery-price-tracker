@@ -585,6 +585,33 @@
     "image": "mitom/chao_yen.jpg"
   },
   {
+    "name": "Bánh tráng gạo",
+    "unit": "cái",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_trang_gao.jpg"
+  },
+  {
+    "name": "Bánh tráng lề Đại Lộc",
+    "unit": "xách",
+    "price": 2500,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_trang_le_dai_loc.jpg"
+  },
+  {
+    "name": "Bánh tráng lề Phú Thành",
+    "unit": "xách",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_trang_le_phu_thanh.jpg"
+  },
+  {
     "name": "Bánh oxi Lays",
     "unit": "gói",
     "price": 10000,
