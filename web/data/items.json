@@ -747,6 +747,24 @@
     "image": "giavi/nua_ky_duong.jpg"
   },
   {
+    "name": "Trứng gà công nghiệp",
+    "unit": "quả",
+    "price": 3500,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "trung/trung_ga_cong_nghiep.jpg"
+  },
+  {
+    "name": "Trứng vịt",
+    "unit": "quả",
+    "price": 4000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "trung/trung_vit.jpg"
+  },
+  {
     "name": "Sữa tắm E100",
     "unit": "gói",
     "price": 500,
