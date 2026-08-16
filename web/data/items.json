@@ -270,22 +270,49 @@
     "image": "douong/aquarius.jpg"
   },
   {
-    "name": "Nước lọc Aquafina",
+    "name": "Nước lọc Aquafina nhỏ",
     "unit": "chai",
     "price": 5000,
     "pack": null,
     "box": 105000,
     "strip": null,
-    "image": "douong/nuoc_loc_aquafina.jpg"
+    "image": "douong/nuoc_loc_aquafina_nho.jpg"
   },
   {
-    "name": "Nước lọc number one",
+    "name": "Nước lọc Aquafina lớn",
+    "unit": "chai",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "douong/nuoc_loc_aquafina_lon.jpg"
+  },
+  {
+    "name": "Nước lọc number one nhỏ",
     "unit": "chai",
     "price": 5000,
     "pack": 25000,
     "box": null,
     "strip": null,
-    "image": "douong/nuoc_loc_number_one.jpg"
+    "image": "douong/nuoc_loc_number_one_nho.jpg"
+  },
+  {
+    "name": "Nước lọc Nhật Lợi lớn",
+    "unit": "chai",
+    "price": 6000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "douong/nuoc_loc_nhat_loi_lon.jpg"
+  },
+  {
+    "name": "Bình nước lọc Nhật Lợi",
+    "unit": "bình",
+    "price": 12000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "douong/binh_nuoc_loc_nhat_loi.jpg"
   },
   {
     "name": "Trà ô long tea plus",
