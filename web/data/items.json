@@ -261,7 +261,7 @@
     "image": "douong/pocari_lon.jpg"
   },
   {
-    "name": "Nước lọc Aquarius",
+    "name": "Nước Aquarius",
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
@@ -405,13 +405,22 @@
     "image": "sua/milo_lon.jpg"
   },
   {
-    "name": "Sữa hộp Fami nhỏ",
+    "name": "Sữa Fami nhỏ",
     "unit": "hộp",
     "price": 5000,
     "pack": 28000,
     "box": null,
     "strip": null,
     "image": "sua/sua_hop_fami_nho.jpg"
+  },
+  {
+    "name": "Sữa bắp Nha Trang",
+    "unit": "chai",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "sua/sua_bap_nha_trang.jpg"
   },
   {
     "name": "Bia Tiger lùn",
@@ -585,6 +594,15 @@
     "image": "mitom/mi_gau_do.jpg"
   },
   {
+    "name": "Mì Quen",
+    "unit": "gói",
+    "price": 3000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "mitom/mi_quen.jpg"
+  },
+  {
     "name": "Mì Kokomi",
     "unit": "gói",
     "price": 4000,
@@ -736,6 +754,69 @@
     "box": null,
     "strip": null,
     "image": "banhkeo/banh_my_sandwich.jpg"
+  },
+  {
+    "name": "Bánh tráng trộn",
+    "unit": "bịch",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_trang_tron.jpg"
+  },
+  {
+    "name": "Bánh hộp Calty vàng",
+    "unit": "hộp",
+    "price": 30000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_calty_vang.jpg"
+  },
+  {
+    "name": "Bánh hộp ChocoVina đỏ",
+    "unit": "hộp",
+    "price": 35000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_chocovina_do.jpg"
+  },
+  {
+    "name": "Bánh hộp Olala đỏ",
+    "unit": "hộp",
+    "price": 50000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_olala_do.jpg"
+  },
+  {
+    "name": "Bánh hộp Win đỏ",
+    "unit": "hộp",
+    "price": 55000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_win_do.jpg"
+  },
+  {
+    "name": "Bánh hộp Cosy vàng",
+    "unit": "hộp",
+    "price": 70000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_cosy_vang.jpg"
+  },
+  {
+    "name": "Bánh hộp Kita vàng",
+    "unit": "hộp",
+    "price": 70000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/banh_hop_kita_vang.jpg"
   },
   {
     "name": "Dầu đậu nành Tường An",
