@@ -414,6 +414,15 @@
     "image": "sua/sua_hop_fami_nho.jpg"
   },
   {
+    "name": "Sữa lon Tài Lộc",
+    "unit": "lon",
+    "price": 19000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "sua/sua_lon_tai_loc.jpg"
+  },
+  {
     "name": "Sữa bắp Nha Trang",
     "unit": "chai",
     "price": 10000,
@@ -900,6 +909,24 @@
     "image": "giavi/nuoc_mam_nam_ngu.jpg"
   },
   {
+    "name": "Xì dầu Phú Sĩ",
+    "unit": "chai",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "giavi/xi_dau_phu_si.jpg"
+  },
+  {
+    "name": "Xì dầu Đồng Tiến",
+    "unit": "chai",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "giavi/xi_dau_dong_tien.jpg"
+  },
+  {
     "name": "Xì dầu Maggi",
     "unit": "chai",
     "price": 17000,
@@ -909,13 +936,22 @@
     "image": "giavi/xi_dau_maggi.jpg"
   },
   {
-    "name": "Xì dầu Phú Sĩ",
+    "name": "Nước tương chinsu nắp trắng",
     "unit": "chai",
-    "price": 10000,
+    "price": 17000,
     "pack": null,
     "box": null,
     "strip": null,
-    "image": "giavi/xi_dau_phu_si.jpg"
+    "image": "giavi/nuoc_tuong_chin_su_nap_trang.jpg"
+  },
+  {
+    "name": "Nước tương chinsu nắp đỏ",
+    "unit": "chai",
+    "price": 19000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "giavi/nuoc_tuong_chin_su_nap_do.jpg"
   },
   {
     "name": "Muối ăn iot",
@@ -961,6 +997,15 @@
     "box": null,
     "strip": null,
     "image": "giavi/mi_chinh_bot_ngot_lon.jpg"
+  },
+  {
+    "name": "Mì chính A One lớn",
+    "unit": "gói",
+    "price": 29000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "giavi/mi_chinh_a_one_lon.jpg"
   },
   {
     "name": "Nửa ký đường",
@@ -1168,5 +1213,32 @@
     "box": null,
     "strip": null,
     "image": "nuoctayrua/nuoc_giat_xa_swat.jpg"
+  },
+  {
+    "name": "Áo mưa phương tiện",
+    "unit": "cái",
+    "price": 10000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "aomua/ao_mua_phuong_tien.jpg"
+  },
+  {
+    "name": "Áo mưa bộ",
+    "unit": "bộ",
+    "price": 25000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "aomua/ao_mua_bo.jpg"
+  },
+  {
+    "name": "Áo mưa su dẻo",
+    "unit": "cái",
+    "price": 40000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "aomua/ao_mua_su_deo.jpg"
   }
 ]
