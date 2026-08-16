@@ -326,7 +326,7 @@
   {
     "name": "Yến hủ người lớn",
     "unit": "hủ",
-    "price": 35000,
+    "price": 33500,
     "pack": null,
     "box": null,
     "strip": null,
@@ -335,7 +335,7 @@
   {
     "name": "Yến hủ trẻ em",
     "unit": "hủ",
-    "price": 33000,
+    "price": 35000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -560,7 +560,7 @@
   {
     "name": "Mì Kokomi",
     "unit": "gói",
-    "price": 3000,
+    "price": 4000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -605,7 +605,7 @@
   {
     "name": "Phở Cung Đình",
     "unit": "gói",
-    "price": 9000,
+    "price": 8000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -650,7 +650,7 @@
   {
     "name": "Bánh tráng lề Đại Lộc",
     "unit": "xách",
-    "price": 2500,
+    "price": 3500,
     "pack": null,
     "box": null,
     "strip": null,
@@ -749,7 +749,7 @@
   {
     "name": "Nước mắm Nam Ngư đệ nhị",
     "unit": "chai",
-    "price": 20000,
+    "price": 19000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -794,7 +794,7 @@
   {
     "name": "Hạt nêm Knorr lớn",
     "unit": "gói",
-    "price": 25000,
+    "price": 30000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -803,7 +803,7 @@
   {
     "name": "Mì chính Vedan nhỏ",
     "unit": "gói",
-    "price": 10000,
+    "price": 7000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -821,7 +821,7 @@
   {
     "name": "Nửa ký đường",
     "unit": "bịch",
-    "price": 12000,
+    "price": 11000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -830,7 +830,7 @@
   {
     "name": "Trứng gà công nghiệp",
     "unit": "quả",
-    "price": 3500,
+    "price": 3000,
     "pack": null,
     "box": null,
     "strip": null,
@@ -974,7 +974,7 @@
   {
     "name": "Nước rửa chén lix nhỏ",
     "unit": "chai",
-    "price": 10000,
+    "price": 12000,
     "pack": null,
     "box": null,
     "strip": null,
