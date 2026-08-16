@@ -819,6 +819,42 @@
     "image": "banhkeo/banh_hop_kita_vang.jpg"
   },
   {
+    "name": "Kẹo mút",
+    "unit": "cây",
+    "price": 1000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/keo_mut.jpg"
+  },
+  {
+    "name": "Kẹo su Doublemint",
+    "unit": "cây",
+    "price": 1000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/keo_su_doublemint_coolair.jpg"
+  },
+  {
+    "name": "Kẹo su Cool Air",
+    "unit": "cây",
+    "price": 1000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/keo_su_doublemint_coolair.jpg"
+  },
+  {
+    "name": "Tép kẹo su Doublemint",
+    "unit": "tép",
+    "price": 5000,
+    "pack": null,
+    "box": null,
+    "strip": null,
+    "image": "banhkeo/tep_keo_su_doublemint.jpg"
+  },
+  {
     "name": "Dầu đậu nành Tường An",
     "unit": "chai",
     "price": 55000,
