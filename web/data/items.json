@@ -878,5 +878,47 @@
     "unit": "cái",
     "price": 40000,
     "image": "aomua/ao_mua_su_deo.jpg"
+  },{
+    "name": "Trà Kim Sơn nhỏ",
+    "unit": "gói",
+    "price": 5000,
+    "image": "douong/tra_kim_son_nho.jpg"
+  },
+  {
+    "name": "Cà phê sữa",
+    "unit": "gói",
+    "price": 3000,
+    "image": "douong/ca_phe_sua.jpg"
+  },
+  {
+    "name": "Cà phê phố",
+    "unit": "gói",
+    "price": 5000,
+    "image": "douong/ca_phe_pho.jpg"
+  },
+  {
+    "name": "Sữa chua có đường",
+    "unit": "hộp",
+    "price": 6000,
+    "pack": 24000,
+    "image": "douong/sua_chua_co_duong.jpg"
+  },
+  {
+    "name": "Nước khoáng Đành Thạnh",
+    "unit": "chai",
+    "price": 7000,
+    "image": "douong/nuoc_khoang_danh_thanh.jpg"
+  },
+  {
+    "name": "Nước khoáng Sparkling",
+    "unit": "chai",
+    "price": 7000,
+    "image": "douong/nuoc_khoang_sparkling.jpg"
+  },
+  {
+    "name": "Nước khoáng Vikoda",
+    "unit": "chai",
+    "price": 7000,
+    "image": "douong/nuoc_khoang_vikoda.jpg"
   }
 ]
