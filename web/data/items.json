@@ -1049,7 +1049,7 @@
   {
     "name": "Nước tẩy đồ javel",
     "unit": "chai",
-    "price": 7000,
+    "price": 8000,
     "image": "nuoctayrua/nuoc_tay_do_javel.jpg"
   },
   {
@@ -1059,22 +1059,28 @@
     "image": "nuoctayrua/bot_giat_omo_nho.jpg"
   },
   {
-    "name": "Nước rửa chén sunlight nhỏ",
-    "unit": "chai",
-    "price": 10000,
-    "image": "nuoctayrua/nuoc_rua_chen_sunlight_nho.jpg"
-  },
-  {
-    "name": "Nước rửa chén lix nhỏ",
+    "name": "Nước rửa chén lix vàng",
     "unit": "chai",
     "price": 12000,
-    "image": "nuoctayrua/nuoc_rua_chen_lix_nho.jpg"
+    "image": "nuoctayrua/nuoc_rua_chen_lix_vang.jpg"
   },
   {
-    "name": "Nước rửa chén lix lớn",
+    "name": "Canh rửa chén lix trắng",
     "unit": "canh",
-    "price": 27000,
-    "image": "nuoctayrua/nuoc_rua_chen_lix_lon.jpg"
+    "price": 30000,
+    "image": "nuoctayrua/canh_rua_chen_lix_trang.jpg"
+  },
+  {
+    "name": "Canh rửa chén lix vàng",
+    "unit": "canh",
+    "price": 32000,
+    "image": "nuoctayrua/canh_rua_chen_lix_vang.jpg"
+  },
+  {
+    "name": "Canh rửa chén lix vàng lớn",
+    "unit": "canh",
+    "price": 32000,
+    "image": "nuoctayrua/canh_rua_chen_lix_vang_lon.jpg"
   },
   {
     "name": "Nước vim bồn cầu swat",
