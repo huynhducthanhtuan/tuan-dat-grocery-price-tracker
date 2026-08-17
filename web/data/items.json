@@ -1280,15 +1280,15 @@
   {
     "name": "Pin con ó nhỏ",
     "unit": "viên",
-    "price": 1500,
-    "pack": 5000,
+    "price": 2500,
+    "pack": 10000,
     "image": "vatdung/pin_con_o_con_tho_nho.jpg"
   },
   {
     "name": "Pin con thỏ nhỏ",
     "unit": "viên",
-    "price": 1500,
-    "pack": 5000,
+    "price": 2500,
+    "pack": 10000,
     "image": "vatdung/pin_con_o_con_tho_nho.jpg"
   },
   {
@@ -1320,28 +1320,28 @@
     "name": "Hương 3A",
     "unit": "tép",
     "price": 2000,
-    "pack": 18000,
+    "ten": 18000,
     "image": "docung/huong_3a.jpg"
   },
   {
     "name": "Hương tép hà nội",
     "unit": "tép",
     "price": 5000,
-    "pack": 45000,
+    "ten": 45000,
     "image": "docung/huong_tep_ha_noi.jpg"
   },
   {
     "name": "Hương nhí",
     "unit": "bó",
     "price": 5000,
-    "pack": 35000,
+    "ten": 35000,
     "image": "docung/huong_nhi_tron.jpg"
   },
   {
     "name": "Hương quế trung",
     "unit": "bó",
     "price": 10000,
-    "pack": 70000,
+    "ten": 70000,
     "image": "docung/huong_que_trung.jpg"
   },
   {

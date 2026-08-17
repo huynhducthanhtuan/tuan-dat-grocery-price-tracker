@@ -30,6 +30,10 @@ export const normalizeItem = (item: any): Item => {
       item.strip !== undefined && item.strip !== null && !isNaN(Number(item.strip))
         ? Number(item.strip)
         : undefined,
+    ten:
+      item.ten !== undefined && item.ten !== null && !isNaN(Number(item.ten))
+        ? Number(item.ten)
+        : undefined,
     image: item.image ? String(item.image) : undefined,
   };
 };

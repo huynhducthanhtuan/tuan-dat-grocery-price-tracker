@@ -106,6 +106,7 @@ export default function App() {
                       {item.pack && <span>Lốc: {item.pack.toLocaleString("vi-VN")} đ/lốc</span>}
                       {item.box && <span>Thùng: {item.box.toLocaleString("vi-VN")} đ/thùng</span>}
                       {item.strip && <span>Dây: {item.strip.toLocaleString("vi-VN")} đ/dây</span>}
+                      {item.ten && <span>Chục: {item.ten.toLocaleString("vi-VN")} đ/chục</span>}
                     </div>
                   </div>
                 </article>
@@ -203,6 +204,12 @@ export default function App() {
                             {item.strip ? item.strip.toLocaleString("vi-VN") + " đ" : "—"}
                           </span>
                         </div>
+                        <div className="mobile-detail-box">
+                          <span className="mobile-detail-label">Giá Chục</span>
+                          <span className="mobile-detail-value">
+                            {item.ten ? item.ten.toLocaleString("vi-VN") + " đ" : "—"}
+                          </span>
+                        </div>
                       </div>
 
                       <button
@@ -233,6 +240,7 @@ export default function App() {
                     <th>Giá lốc</th>
                     <th>Giá thùng</th>
                     <th>Giá dây</th>
+                    <th>Giá chục</th>
                     <th>Xem hình</th>
                   </tr>
                 </thead>
@@ -247,6 +255,7 @@ export default function App() {
                         <td>{item.pack ? item.pack?.toLocaleString("vi-VN") : "—"}</td>
                         <td>{item.box ? item.box?.toLocaleString("vi-VN") : "—"}</td>
                         <td>{item.strip ? item.strip?.toLocaleString("vi-VN") : "—"}</td>
+                        <td>{item.ten ? item.ten?.toLocaleString("vi-VN") : "—"}</td>
                         <td>
                           <button
                             onClick={() => openImagePopup(imageUrl, item.name)}

@@ -5,5 +5,6 @@ export type Item = {
   pack?: number;
   box?: number;
   strip?: number;
+  ten?: number;
   image?: string;
 };
