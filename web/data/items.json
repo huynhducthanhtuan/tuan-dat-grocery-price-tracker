@@ -5,7 +5,6 @@
     "price": 10000,
     "pack": 50000,
     "box": 190000,
-    "strip": null,
     "image": "douong/khong_do.jpg"
   },
   {
@@ -14,7 +13,6 @@
     "price": 15000,
     "pack": 80000,
     "box": 300000,
-    "strip": null,
     "image": "douong/bo_huc.jpg"
   },
   {
@@ -23,7 +21,6 @@
     "price": 10000,
     "pack": 50000,
     "box": 190000,
-    "strip": null,
     "image": "douong/nutri.jpg"
   },
   {
@@ -32,7 +29,6 @@
     "price": 10000,
     "pack": 50000,
     "box": 190000,
-    "strip": null,
     "image": "douong/c2.jpg"
   },
   {
@@ -40,8 +36,6 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/revive.jpg"
   },
   {
@@ -49,8 +43,6 @@
     "unit": "chai",
     "price": 10000,
     "pack": 45000,
-    "box": null,
-    "strip": null,
     "image": "douong/chanh_muoi.jpg"
   },
   {
@@ -58,26 +50,18 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/sting_chai.jpg"
   },
   {
     "name": "Sting vàng chai thủy tinh",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/sting_vang_chai_thuy_tinh.jpg"
   },
   {
     "name": "Sting đỏ chai thủy tinh",
     "unit": "chai",
     "price": 6000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/sting_do_chai_thuy_tinh.jpg"
   },
   {
@@ -85,8 +69,6 @@
     "unit": "lon",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/sting_lon.jpg"
   },
   {
@@ -94,8 +76,6 @@
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
-    "box": null,
-    "strip": null,
     "image": "douong/coca_chai_lon.jpg"
   },
   {
@@ -103,8 +83,6 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "box": null,
-    "strip": null,
     "image": "douong/coca_chai_nho.jpg"
   },
   {
@@ -112,8 +90,6 @@
     "unit": "lon",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/coca_lon.jpg"
   },
   {
@@ -121,8 +97,6 @@
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
-    "box": null,
-    "strip": null,
     "image": "douong/pepsi_chai_lon.jpg"
   },
   {
@@ -130,17 +104,12 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "box": null,
-    "strip": null,
     "image": "douong/pepsi_chai_nho.jpg"
   },
   {
     "name": "Pepsi chai thủy tinh",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/pepsi_chai_thuy_tinh.jpg"
   },
   {
@@ -148,35 +117,24 @@
     "unit": "lon",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/pepsi_lon.jpg"
   },
   {
     "name": "7up chai thủy tinh",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/7up_chai_thuy_tinh.jpg"
   },
   {
     "name": "7up nhí",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/7up_chai_nho.jpg"
   },
   {
     "name": "7up lon",
     "unit": "lon",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/7up_lon.jpg"
   },
   {
@@ -184,8 +142,6 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "box": null,
-    "strip": null,
     "image": "douong/sprite_chai_nho.jpg"
   },
   {
@@ -193,8 +149,6 @@
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
-    "box": null,
-    "strip": null,
     "image": "douong/sprite_chai_lon.jpg"
   },
   {
@@ -202,8 +156,6 @@
     "unit": "lon",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/sprite_lon.jpg"
   },
   {
@@ -211,8 +163,6 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "box": null,
-    "strip": null,
     "image": "douong/fanta_chai_nho.jpg"
   },
   {
@@ -220,8 +170,6 @@
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
-    "box": null,
-    "strip": null,
     "image": "douong/fanta_chai_lon.jpg"
   },
   {
@@ -229,8 +177,6 @@
     "unit": "lon",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/fanta_lon.jpg"
   },
   {
@@ -238,8 +184,6 @@
     "unit": "chai",
     "price": 13000,
     "pack": 65000,
-    "box": null,
-    "strip": null,
     "image": "douong/pocari_nho.jpg"
   },
   {
@@ -247,17 +191,12 @@
     "unit": "chai",
     "price": 15000,
     "pack": 85000,
-    "box": null,
-    "strip": null,
     "image": "douong/pocari_trung.jpg"
   },
   {
     "name": "Nước Pocari lớn",
     "unit": "chai",
     "price": 22000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/pocari_lon.jpg"
   },
   {
@@ -265,26 +204,19 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/aquarius.jpg"
   },
   {
     "name": "Nước lọc Aquafina nhỏ",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
     "box": 105000,
-    "strip": null,
     "image": "douong/nuoc_loc_aquafina_nho.jpg"
   },
   {
     "name": "Nước lọc Aquafina lớn",
     "unit": "chai",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/nuoc_loc_aquafina_lon.jpg"
   },
   {
@@ -292,26 +224,18 @@
     "unit": "chai",
     "price": 5000,
     "pack": 25000,
-    "box": null,
-    "strip": null,
     "image": "douong/nuoc_loc_number_one_nho.jpg"
   },
   {
     "name": "Nước lọc Nhật Lợi lớn",
     "unit": "chai",
     "price": 6000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/nuoc_loc_nhat_loi_lon.jpg"
   },
   {
     "name": "Bình nước lọc Nhật Lợi",
     "unit": "bình",
     "price": 12000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "douong/binh_nuoc_loc_nhat_loi.jpg"
   },
   {
@@ -319,8 +243,6 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/tra_o_long_tea_plus.jpg"
   },
   {
@@ -328,44 +250,30 @@
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
-    "box": null,
-    "strip": null,
     "image": "douong/tra_xanh_fuze_tea.jpg"
   },
   {
     "name": "Xách yến lon Chấn Vinh",
     "unit": "xách",
     "price": 55000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "yen/yen_chan_vinh.jpg"
   },
   {
     "name": "Xách yến hủ Sanest",
     "unit": "xách",
     "price": 200000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "yen/yen_hu_sanest.jpg"
   },
   {
     "name": "Yến hủ người lớn",
     "unit": "hủ",
     "price": 33500,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "yen/yen_hu_nguoi_lon.jpg"
   },
   {
     "name": "Yến hủ trẻ em",
     "unit": "hủ",
     "price": 35000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "yen/yen_hu_tre_em.jpg"
   },
   {
@@ -373,8 +281,6 @@
     "unit": "hộp",
     "price": 6000,
     "pack": 22000,
-    "box": null,
-    "strip": null,
     "image": "sua/th_nho.jpg"
   },
   {
@@ -382,8 +288,6 @@
     "unit": "hộp",
     "price": 10000,
     "pack": 38000,
-    "box": null,
-    "strip": null,
     "image": "sua/th_lon.jpg"
   },
   {
@@ -391,8 +295,6 @@
     "unit": "hộp",
     "price": 6000,
     "pack": 22000,
-    "box": null,
-    "strip": null,
     "image": "sua/milo_nho.jpg"
   },
   {
@@ -400,8 +302,6 @@
     "unit": "hộp",
     "price": 10000,
     "pack": 38000,
-    "box": null,
-    "strip": null,
     "image": "sua/milo_lon.jpg"
   },
   {
@@ -409,637 +309,431 @@
     "unit": "hộp",
     "price": 5000,
     "pack": 28000,
-    "box": null,
-    "strip": null,
     "image": "sua/sua_hop_fami_nho.jpg"
   },
   {
     "name": "Sữa lon Tài Lộc",
     "unit": "lon",
     "price": 19000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "sua/sua_lon_tai_loc.jpg"
   },
   {
     "name": "Sữa bắp Nha Trang",
     "unit": "chai",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "sua/sua_bap_nha_trang.jpg"
   },
   {
     "name": "Bia Tiger lùn",
     "unit": "lon",
     "price": 13500,
-    "pack": null,
     "box": 300000,
-    "strip": null,
     "image": "biaruou/tiger_lun.jpg"
   },
   {
     "name": "Bia Tiger cao",
     "unit": "lon",
     "price": 15000,
-    "pack": null,
     "box": 350000,
-    "strip": null,
     "image": "biaruou/tiger_cao.jpg"
   },
   {
     "name": "Bia Larue",
     "unit": "lon",
     "price": 12000,
-    "pack": null,
     "box": 280000,
-    "strip": null,
     "image": "biaruou/larue.jpg"
   },
   {
     "name": "Bia Huda",
     "unit": "lon",
     "price": 12500,
-    "pack": null,
     "box": 280000,
-    "strip": null,
     "image": "biaruou/huda.jpg"
   },
   {
     "name": "Bia Anh",
     "unit": "lon",
     "price": 11000,
-    "pack": null,
     "box": 265000,
-    "strip": null,
     "image": "biaruou/bia_anh.jpg"
   },
   {
     "name": "Rượu Vodka nhỏ",
     "unit": "chai",
     "price": 45000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "biaruou/ruou_vodka.jpg"
   },
   {
     "name": "Rượu Vodka lớn",
     "unit": "chai",
     "price": 65000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "biaruou/ruou_vodka.jpg"
   },
   {
     "name": "Thuốc con mèo craven",
     "unit": "gói",
     "price": 18000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_con_meo_craven.jpg"
   },
   {
     "name": "Thuốc sài gòn bạc",
     "unit": "gói",
     "price": 17000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_sai_gon_bac.jpg"
   },
   {
     "name": "Thuốc con ngựa lớn",
     "unit": "gói",
     "price": 28000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_con_ngua_lon.jpg"
   },
   {
     "name": "Thuốc con ngựa nhỏ",
     "unit": "gói",
     "price": 17000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_con_ngua_nho.jpg"
   },
   {
     "name": "Thuốc chim xanh frince",
     "unit": "gói",
     "price": 11000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_chim_xanh_frince.jpg"
   },
   {
     "name": "Thuốc Rave",
     "unit": "gói",
     "price": 12000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "thuocla/thuoc_rave.jpg"
   },
   {
     "name": "Mì hảo hảo",
     "unit": "gói",
     "price": 4500,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_hao_hao.jpg"
   },
   {
     "name": "Mì 3 miền",
     "unit": "gói",
     "price": 4000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_3_mien.jpg"
   },
   {
     "name": "Mì 4 phút Koreno",
     "unit": "gói",
     "price": 8000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_4_phut_koreno.jpg"
   },
   {
     "name": "Mì lẩu thái",
     "unit": "gói",
     "price": 8000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_lau_thai.jpg"
   },
   {
     "name": "Mì lẩu nấm Reeva",
     "unit": "gói",
     "price": 8000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_lau_nam_reeva.jpg"
   },
   {
     "name": "Mì gấu đỏ",
     "unit": "gói",
     "price": 3000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_gau_do.jpg"
   },
   {
     "name": "Mì Quen",
     "unit": "gói",
     "price": 3000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_quen.jpg"
   },
   {
     "name": "Mì Kokomi",
     "unit": "gói",
     "price": 4000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_kokomi.jpg"
   },
   {
     "name": "Mì Omachi",
     "unit": "gói",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_omachi.jpg"
   },
   {
     "name": "Mì ly Cung Đình",
     "unit": "ly",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_ly_cung_dinh.jpg"
   },
   {
     "name": "Mì ly Omachi",
     "unit": "ly",
     "price": 11000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_ly_omachi.jpg"
   },
   {
     "name": "Mì ly lẩu thái Modern",
     "unit": "ly",
     "price": 11000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/mi_ly_lau_thai_modern.jpg"
   },
   {
     "name": "Phở Cung Đình",
     "unit": "gói",
     "price": 8000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/pho_cung_dinh.jpg"
   },
   {
     "name": "Hủ tiếu Cung Đình",
     "unit": "gói",
     "price": 9000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/hu_tieu_cung_dinh.jpg"
   },
   {
     "name": "Cháo gấu đỏ",
     "unit": "gói",
     "price": 4000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/chao_gau_do.jpg"
   },
   {
     "name": "Cháo yến",
     "unit": "gói",
     "price": 8000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "mitom/chao_yen.jpg"
   },
   {
     "name": "Bánh tráng gạo",
     "unit": "cái",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_trang_gao.jpg"
   },
   {
     "name": "Bánh tráng lề Đại Lộc",
     "unit": "xách",
     "price": 3500,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_trang_le_dai_loc.jpg"
   },
   {
     "name": "Bánh tráng lề Phú Thành",
     "unit": "xách",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_trang_le_phu_thanh.jpg"
   },
   {
     "name": "Bánh oxi Lays",
     "unit": "gói",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_oxi_lays.jpg"
   },
   {
     "name": "Bánh oxi Poca",
     "unit": "gói",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_oxi_poca.jpg"
   },
   {
     "name": "Bánh oxi Oishi",
     "unit": "gói",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_oxi_oishi.jpg"
   },
   {
     "name": "Bánh Nabati",
     "unit": "gói",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_nabati.jpg"
   },
   {
     "name": "Bánh mỳ sandwich",
     "unit": "gói",
     "price": 15000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_my_sandwich.jpg"
   },
   {
     "name": "Bánh tráng trộn",
     "unit": "bịch",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_trang_tron.jpg"
   },
   {
     "name": "Bánh hộp Calty vàng",
     "unit": "hộp",
     "price": 30000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_calty_vang.jpg"
   },
   {
     "name": "Bánh hộp ChocoVina đỏ",
     "unit": "hộp",
     "price": 35000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_chocovina_do.jpg"
   },
   {
     "name": "Bánh hộp Olala đỏ",
     "unit": "hộp",
     "price": 50000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_olala_do.jpg"
   },
   {
     "name": "Bánh hộp Win đỏ",
     "unit": "hộp",
     "price": 55000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_win_do.jpg"
   },
   {
     "name": "Bánh hộp Cosy vàng",
     "unit": "hộp",
     "price": 70000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_cosy_vang.jpg"
   },
   {
     "name": "Bánh hộp Kita vàng",
     "unit": "hộp",
     "price": 70000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/banh_hop_kita_vang.jpg"
   },
   {
     "name": "Kẹo mút",
     "unit": "cây",
     "price": 1000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/keo_mut.jpg"
   },
   {
     "name": "Kẹo su Doublemint",
     "unit": "cây",
     "price": 1000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/keo_su_doublemint_coolair.jpg"
   },
   {
     "name": "Kẹo su Cool Air",
     "unit": "cây",
     "price": 1000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/keo_su_doublemint_coolair.jpg"
   },
   {
     "name": "Tép kẹo su Doublemint",
     "unit": "tép",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "banhkeo/tep_keo_su_doublemint.jpg"
   },
   {
     "name": "Dầu đậu nành Tường An",
     "unit": "chai",
     "price": 55000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/dau_dau_nanh_tuong_an.jpg"
   },
   {
     "name": "Tương Chinsu",
     "unit": "chai",
     "price": 18000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/tuong_chinsu.jpg"
   },
   {
     "name": "Tương thường",
     "unit": "chai",
     "price": 5000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/tuong_thuong.jpg"
   },
   {
     "name": "Nước mắm Ông Tây",
     "unit": "chai",
     "price": 18000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/nuoc_mam_ong_tay.jpg"
   },
   {
     "name": "Nước mắm Nam Ngư đệ nhị",
     "unit": "chai",
     "price": 19000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/nuoc_mam_nam_ngu.jpg"
   },
   {
     "name": "Xì dầu Phú Sĩ",
     "unit": "chai",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/xi_dau_phu_si.jpg"
   },
   {
     "name": "Xì dầu Đồng Tiến",
     "unit": "chai",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/xi_dau_dong_tien.jpg"
   },
   {
     "name": "Xì dầu Maggi",
     "unit": "chai",
     "price": 17000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/xi_dau_maggi.jpg"
   },
   {
     "name": "Nước tương chinsu nắp trắng",
     "unit": "chai",
     "price": 17000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/nuoc_tuong_chin_su_nap_trang.jpg"
   },
   {
     "name": "Nước tương chinsu nắp đỏ",
     "unit": "chai",
     "price": 19000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/nuoc_tuong_chin_su_nap_do.jpg"
   },
   {
     "name": "Muối ăn iot",
     "unit": "gói",
     "price": 2000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/muoi_an_iot.jpg"
   },
   {
     "name": "Hạt nêm Knorr nhỏ",
     "unit": "gói",
     "price": 15000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/hat_nem_knorr_nho.jpg"
   },
   {
     "name": "Hạt nêm Knorr lớn",
     "unit": "gói",
     "price": 30000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/hat_nem_knorr_lon.jpg"
   },
   {
     "name": "Mì chính Vedan nhỏ",
     "unit": "gói",
     "price": 7000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/mi_chinh_vedan_nho.jpg"
   },
   {
     "name": "Mì chính Bột ngọt lớn",
     "unit": "gói",
     "price": 27000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/mi_chinh_bot_ngot_lon.jpg"
   },
   {
     "name": "Mì chính A One lớn",
     "unit": "gói",
     "price": 29000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/mi_chinh_a_one_lon.jpg"
   },
   {
     "name": "Nửa ký đường",
     "unit": "bịch",
     "price": 11000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "giavi/nua_ky_duong.jpg"
   },
   {
     "name": "Trứng gà công nghiệp",
     "unit": "quả",
     "price": 3000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "trung/trung_ga_cong_nghiep.jpg"
   },
   {
     "name": "Trứng vịt",
     "unit": "quả",
     "price": 4000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "trung/trung_vit.jpg"
   },
   {
     "name": "Sữa tắm E100",
     "unit": "gói",
     "price": 500,
-    "pack": null,
-    "box": null,
     "strip": 6000,
     "image": "nuoctayrua/sua_tam_e100.jpg"
   },
@@ -1047,8 +741,6 @@
     "name": "Dầu gội clear",
     "unit": "gói",
     "price": 1500,
-    "pack": null,
-    "box": null,
     "strip": 16000,
     "image": "nuoctayrua/dau_goi_clear.jpg"
   },
@@ -1056,8 +748,6 @@
     "name": "Dầu gội xmen",
     "unit": "gói",
     "price": 1000,
-    "pack": null,
-    "box": null,
     "strip": 10000,
     "image": "nuoctayrua/dau_goi_xmen.jpg"
   },
@@ -1065,8 +755,6 @@
     "name": "Dầu gội romano",
     "unit": "gói",
     "price": 1000,
-    "pack": null,
-    "box": null,
     "strip": 10000,
     "image": "nuoctayrua/dau_goi_romano.jpg"
   },
@@ -1074,8 +762,6 @@
     "name": "Dầu gội sunsilk",
     "unit": "gói",
     "price": 1000,
-    "pack": null,
-    "box": null,
     "strip": 10000,
     "image": "nuoctayrua/dau_goi_xa_sunsilk.jpg"
   },
@@ -1083,8 +769,6 @@
     "name": "Dầu xả sunsilk",
     "unit": "gói",
     "price": 1000,
-    "pack": null,
-    "box": null,
     "strip": 10000,
     "image": "nuoctayrua/dau_goi_xa_sunsilk.jpg"
   },
@@ -1092,8 +776,6 @@
     "name": "Dầu gội dove",
     "unit": "gói",
     "price": 1500,
-    "pack": null,
-    "box": null,
     "strip": 16000,
     "image": "nuoctayrua/dau_goi_dove.jpg"
   },
@@ -1101,8 +783,6 @@
     "name": "Dầu gội head & shoulder",
     "unit": "gói",
     "price": 1500,
-    "pack": null,
-    "box": null,
     "strip": 16000,
     "image": "nuoctayrua/dau_goi_head_and_shoulder.jpg"
   },
@@ -1110,8 +790,6 @@
     "name": "Dầu gội rejoice",
     "unit": "gói",
     "price": 1000,
-    "pack": null,
-    "box": null,
     "strip": 10000,
     "image": "nuoctayrua/dau_goi_rejoice.jpg"
   },
@@ -1119,8 +797,6 @@
     "name": "Nước xả comfort",
     "unit": "gói",
     "price": 2000,
-    "pack": null,
-    "box": null,
     "strip": 18000,
     "image": "nuoctayrua/nuoc_xa_comfort.jpg"
   },
@@ -1128,8 +804,6 @@
     "name": "Nước xả downy",
     "unit": "gói",
     "price": 2000,
-    "pack": null,
-    "box": null,
     "strip": 18000,
     "image": "nuoctayrua/nuoc_xa_downy.jpg"
   },
@@ -1137,108 +811,72 @@
     "name": "Nước tẩy đồ javel",
     "unit": "chai",
     "price": 7000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_tay_do_javel.jpg"
   },
   {
     "name": "Bột giặt omo nhỏ",
     "unit": "gói",
     "price": 20000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/bot_giat_omo_nho.jpg"
   },
   {
     "name": "Nước rửa chén sunlight nhỏ",
     "unit": "chai",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_rua_chen_sunlight_nho.jpg"
   },
   {
     "name": "Nước rửa chén lix nhỏ",
     "unit": "chai",
     "price": 12000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_rua_chen_lix_nho.jpg"
   },
   {
     "name": "Nước rửa chén lix lớn",
     "unit": "canh",
     "price": 27000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_rua_chen_lix_lon.jpg"
   },
   {
     "name": "Nước vim bồn cầu swat",
     "unit": "chai",
     "price": 12000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_tay_bon_cau_swat.jpg"
   },
   {
     "name": "Nước lau kính swat",
     "unit": "chai",
     "price": 12000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_lau_kinh_swat.jpg"
   },
   {
     "name": "Nước lau sàn swat",
     "unit": "canh",
     "price": 22000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_lau_san_swat.jpg"
   },
   {
     "name": "Nước giặt xả swat",
     "unit": "canh",
     "price": 45000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "nuoctayrua/nuoc_giat_xa_swat.jpg"
   },
   {
     "name": "Áo mưa phương tiện",
     "unit": "cái",
     "price": 10000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "aomua/ao_mua_phuong_tien.jpg"
   },
   {
     "name": "Áo mưa bộ",
     "unit": "bộ",
     "price": 25000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "aomua/ao_mua_bo.jpg"
   },
   {
     "name": "Áo mưa su dẻo",
     "unit": "cái",
     "price": 40000,
-    "pack": null,
-    "box": null,
-    "strip": null,
     "image": "aomua/ao_mua_su_deo.jpg"
   }
 ]
