@@ -1311,6 +1311,18 @@
     "image": "vatdung/moc_phoi_do.jpg"
   },
   {
+    "name": "Chổi đốt",
+    "unit": "cái",
+    "price": 25000,
+    "image": "vatdung/choi_dot.jpg"
+  },
+  {
+    "name": "Chổi xương",
+    "unit": "cái",
+    "price": 20000,
+    "image": "vatdung/choi_xuong.jpg"
+  },
+  {
     "name": "Rượu hồ lô",
     "unit": "chai",
     "price": 5000,
