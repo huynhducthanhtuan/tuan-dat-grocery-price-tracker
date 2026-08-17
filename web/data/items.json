@@ -197,7 +197,7 @@
   {
     "name": "Nước Pocari nhỏ",
     "unit": "chai",
-    "price": 13000,
+    "price": 12000,
     "pack": 65000,
     "image": "douong/pocari_nho.jpg"
   },
@@ -634,10 +634,10 @@
     "image": "banhkeo/banh_nabati.jpg"
   },
   {
-    "name": "Bánh mỳ sandwich",
-    "unit": "gói",
+    "name": "Bánh mì sandwich",
+    "unit": "xách",
     "price": 15000,
-    "image": "banhkeo/banh_my_sandwich.jpg"
+    "image": "banhkeo/banh_mi_sandwich.jpg"
   },
   {
     "name": "Bánh tráng trộn",
