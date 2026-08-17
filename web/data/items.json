@@ -72,18 +72,25 @@
     "image": "douong/sting_lon.jpg"
   },
   {
+    "name": "Coca nhí",
+    "unit": "chai",
+    "price": 5000,
+    "pack": 30000,
+    "image": "douong/coca_nhi.jpg"
+  },
+  {
+    "name": "Coca chai nhỏ",
+    "unit": "chai",
+    "price": 8000,
+    "pack": 45000,
+    "image": "douong/coca_chai_nho.jpg"
+  },
+  {
     "name": "Coca chai lớn",
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
     "image": "douong/coca_chai_lon.jpg"
-  },
-  {
-    "name": "Coca nhí",
-    "unit": "chai",
-    "price": 5000,
-    "pack": 30000,
-    "image": "douong/coca_chai_nho.jpg"
   },
   {
     "name": "Coca lon",
@@ -93,18 +100,18 @@
     "image": "douong/coca_lon.jpg"
   },
   {
+    "name": "Pepsi chai nhỏ",
+    "unit": "chai",
+    "price": 8000,
+    "pack": 45000,
+    "image": "douong/pepsi_chai_nho.jpg"
+  },
+  {
     "name": "Pepsi chai lớn",
     "unit": "chai",
     "price": 18000,
     "pack": 105000,
     "image": "douong/pepsi_chai_lon.jpg"
-  },
-  {
-    "name": "Pepsi nhí",
-    "unit": "chai",
-    "price": 5000,
-    "pack": 30000,
-    "image": "douong/pepsi_chai_nho.jpg"
   },
   {
     "name": "Pepsi chai thủy tinh",
@@ -120,16 +127,17 @@
     "image": "douong/pepsi_lon.jpg"
   },
   {
+    "name": "7up chai nhỏ",
+    "unit": "chai",
+    "price": 8000,
+    "pack": 45000,
+    "image": "douong/7up_chai_nho.jpg"
+  },
+  {
     "name": "7up chai thủy tinh",
     "unit": "chai",
     "price": 5000,
     "image": "douong/7up_chai_thuy_tinh.jpg"
-  },
-  {
-    "name": "7up nhí",
-    "unit": "chai",
-    "price": 5000,
-    "image": "douong/7up_chai_nho.jpg"
   },
   {
     "name": "7up lon",
@@ -142,7 +150,7 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "image": "douong/sprite_chai_nho.jpg"
+    "image": "douong/sprite_nhi.jpg"
   },
   {
     "name": "Sprite chai lớn",
@@ -163,7 +171,7 @@
     "unit": "chai",
     "price": 5000,
     "pack": 30000,
-    "image": "douong/fanta_chai_nho.jpg"
+    "image": "douong/fanta_nhi.jpg"
   },
   {
     "name": "Fanta chai lớn",
@@ -178,6 +186,13 @@
     "price": 10000,
     "pack": 50000,
     "image": "douong/fanta_lon.jpg"
+  },
+  {
+    "name": "Mirinda chai nhỏ",
+    "unit": "chai",
+    "price": 8000,
+    "pack": 45000,
+    "image": "douong/mirinda_chai_nho.jpg"
   },
   {
     "name": "Nước Pocari nhỏ",
@@ -971,6 +986,12 @@
     "unit": "bịch",
     "price": 10000,
     "image": "giaykhan/khan_uot.jpg"
+  },
+  {
+    "name": "Băng vệ sinh Nyna",
+    "unit": "bịch",
+    "price": 12000,
+    "image": "giaykhan/bang_ve_sinh_nyna.jpg"
   },
   {
     "name": "Băng vệ sinh Lyna",
