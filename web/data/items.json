@@ -394,13 +394,6 @@
     "image": "biaruou/tiger_lun.jpg"
   },
   {
-    "name": "Bia Tiger cao",
-    "unit": "lon",
-    "price": 15000,
-    "box": 350000,
-    "image": "biaruou/tiger_cao.jpg"
-  },
-  {
     "name": "Bia Larue",
     "unit": "lon",
     "price": 12000,
@@ -418,7 +411,7 @@
     "name": "Bia Anh",
     "unit": "lon",
     "price": 11000,
-    "box": 265000,
+    "box": 260000,
     "image": "biaruou/bia_anh.jpg"
   },
   {
