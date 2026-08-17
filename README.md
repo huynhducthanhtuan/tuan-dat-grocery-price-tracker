@@ -57,4 +57,4 @@ http://localhost:5173
 
 ## 📄 Bản quyền
 
-[MIT License](LICENSE).
+[MIT License](LICENSE)
