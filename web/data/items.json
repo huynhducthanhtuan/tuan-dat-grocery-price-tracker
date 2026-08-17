@@ -484,6 +484,12 @@
     "image": "gao/gao_tu_hoanh_do.jpg"
   },
   {
+    "name": "Gạo mùa",
+    "unit": "ký",
+    "price": 13500,
+    "image": "gao/gao_mua.jpg"
+  },
+  {
     "name": "Gạo gà, gạo lứt",
     "unit": "ký",
     "price": 11000,
