@@ -490,6 +490,18 @@
     "image": "gao/gao_ga.jpg"
   },
   {
+    "name": "Lúa",
+    "unit": "ký",
+    "price": 9000,
+    "image": "gao/lua.jpg"
+  },
+  {
+    "name": "Bắp",
+    "unit": "ký",
+    "price": 9000,
+    "image": "gao/bap.jpg"
+  },
+  {
     "name": "Mì hảo hảo",
     "unit": "gói",
     "price": 4500,
