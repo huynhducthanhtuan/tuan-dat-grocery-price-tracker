@@ -682,6 +682,114 @@
     "image": "banhkeo/banh_hop_kita_vang.jpg"
   },
   {
+    "name": "Bánh hộp Walys",
+    "unit": "hộp",
+    "price": 30000,
+    "image": "banhkeo/banh_hop_walys.jpg"
+  },
+  {
+    "name": "Bánh láng gạo phô mai",
+    "unit": "xách",
+    "price": 10000,
+    "image": "banhkeo/banh_lang_gao_pho_mai.jpg"
+  },
+  {
+    "name": "Bánh mì ngọt",
+    "unit": "cái",
+    "price": 5000,
+    "image": "banhkeo/banh_mi_ngot.jpg"
+  },
+  {
+    "name": "Bánh mì socola Vela",
+    "unit": "cái",
+    "price": 5000,
+    "image": "banhkeo/banh_mi_socola_vela.jpg"
+  },
+  {
+    "name": "Bánh mì sandwich Vela",
+    "unit": "bịch",
+    "price": 5000,
+    "image": "banhkeo/banh_mi_sandwich_vela.jpg"
+  },
+  {
+    "name": "Bánh quy Cosy đỏ",
+    "unit": "xách",
+    "price": 15000,
+    "image": "banhkeo/banh_quy_cosy_do.jpg"
+  },
+  {
+    "name": "Bánh Gấc",
+    "unit": "xách",
+    "price": 7000,
+    "image": "banhkeo/banh_gac.jpg"
+  },
+  {
+    "name": "Bánh quy Calty đỏ",
+    "unit": "xách",
+    "price": 10000,
+    "image": "banhkeo/banh_quy_calty_do.jpg"
+  },
+  {
+    "name": "Bánh gạo Want Want nhí",
+    "unit": "xách",
+    "price": 8000,
+    "image": "banhkeo/banh_gao_want_want_nhi.jpg"
+  },
+  {
+    "name": "Bánh gạo Want Want nhỏ",
+    "unit": "xách",
+    "price": 11000,
+    "image": "banhkeo/banh_gao_want_want_nho.jpg"
+  },
+  {
+    "name": "Bánh gạo Want Want to",
+    "unit": "xách",
+    "price": 20000,
+    "image": "banhkeo/banh_gao_want_want_to.jpg"
+  },
+  {
+    "name": "Bánh gạo Want Want rong biển",
+    "unit": "xách",
+    "price": 20000,
+    "image": "banhkeo/banh_gao_want_want_rong_bien.jpg"
+  },
+  {
+    "name": "Bánh gạo cuộn",
+    "unit": "xách",
+    "price": 25000,
+    "image": "banhkeo/banh_gao_cuon.jpg"
+  },
+  {
+    "name": "Bánh quy sữa",
+    "unit": "xách",
+    "price": 10000,
+    "image": "banhkeo/banh_quy_sua.jpg"
+  },
+  {
+    "name": "Bánh Karo vàng",
+    "unit": "xách",
+    "price": 22000,
+    "image": "banhkeo/banh_karo_vang.jpg"
+  },
+  {
+    "name": "Bánh socola Nice",
+    "unit": "xách",
+    "price": 18000,
+    "image": "banhkeo/banh_socola_nice.jpg"
+  },
+  {
+    "name": "Bánh xách Kita xanh",
+    "unit": "xách",
+    "price": 22000,
+    "image": "banhkeo/banh_xach_kita_xanh.jpg"
+  },
+  {
+    "name": "Bánh thèo lèo",
+    "unit": "bịch",
+    "price": 5000,
+    "image": "banhkeo/banh_theo_leo.jpg"
+  },
+  {
     "name": "Kẹo mút",
     "unit": "cây",
     "price": 1000,
@@ -818,6 +926,18 @@
     "unit": "hộp",
     "price": 6000,
     "image": "giavi/sa_te_tom.jpg"
+  },
+  {
+    "name": "Bột bánh chuối chiên",
+    "unit": "gói",
+    "price": 10000,
+    "image": "giavi/bot_chuoi_chien.jpg"
+  },
+  {
+    "name": "Bột bánh bèo",
+    "unit": "gói",
+    "price": 15000,
+    "image": "giavi/bot_banh_xeo.jpg"
   },
   {
     "name": "Trứng gà công nghiệp",
