@@ -688,7 +688,7 @@
     "image": "banhkeo/banh_hop_walys.jpg"
   },
   {
-    "name": "Bánh láng gạo phô mai",
+    "name": "Bánh làng gạo phô mai",
     "unit": "xách",
     "price": 10000,
     "image": "banhkeo/banh_lang_gao_pho_mai.jpg"
@@ -778,10 +778,10 @@
     "image": "banhkeo/banh_socola_nice.jpg"
   },
   {
-    "name": "Bánh xách Kita xanh",
+    "name": "Bánh Kita xanh",
     "unit": "xách",
     "price": 22000,
-    "image": "banhkeo/banh_xach_kita_xanh.jpg"
+    "image": "banhkeo/banh_kita_xanh.jpg"
   },
   {
     "name": "Bánh thèo lèo",
@@ -934,7 +934,7 @@
     "image": "giavi/bot_chuoi_chien.jpg"
   },
   {
-    "name": "Bột bánh bèo",
+    "name": "Bột bánh xèo",
     "unit": "gói",
     "price": 15000,
     "image": "giavi/bot_banh_xeo.jpg"
