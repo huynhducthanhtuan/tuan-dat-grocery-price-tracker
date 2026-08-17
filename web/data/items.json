@@ -980,7 +980,7 @@
     "name": "Dầu gội clear",
     "unit": "gói",
     "price": 1500,
-    "strip": 16000,
+    "strip": 15000,
     "image": "nuoctayrua/dau_goi_clear.jpg"
   },
   {
@@ -1015,15 +1015,8 @@
     "name": "Dầu gội dove",
     "unit": "gói",
     "price": 1500,
-    "strip": 16000,
+    "strip": 15000,
     "image": "nuoctayrua/dau_goi_dove.jpg"
-  },
-  {
-    "name": "Dầu gội head & shoulder",
-    "unit": "gói",
-    "price": 1500,
-    "strip": 16000,
-    "image": "nuoctayrua/dau_goi_head_and_shoulder.jpg"
   },
   {
     "name": "Dầu gội rejoice",
@@ -1085,25 +1078,25 @@
   {
     "name": "Nước vim bồn cầu swat",
     "unit": "chai",
-    "price": 12000,
+    "price": 25000,
     "image": "nuoctayrua/nuoc_tay_bon_cau_swat.jpg"
   },
   {
     "name": "Nước lau kính swat",
     "unit": "chai",
-    "price": 12000,
+    "price": 27000,
     "image": "nuoctayrua/nuoc_lau_kinh_swat.jpg"
   },
   {
-    "name": "Nước lau sàn swat",
+    "name": "Nước lau sàn, lau bếp swat",
     "unit": "canh",
-    "price": 22000,
+    "price": 30000,
     "image": "nuoctayrua/nuoc_lau_san_swat.jpg"
   },
   {
     "name": "Nước giặt xả swat",
     "unit": "canh",
-    "price": 45000,
+    "price": 150000,
     "image": "nuoctayrua/nuoc_giat_xa_swat.jpg"
   },
   {
