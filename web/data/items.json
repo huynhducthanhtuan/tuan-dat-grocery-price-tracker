@@ -562,6 +562,12 @@
     "image": "mitom/mi_omachi.jpg"
   },
   {
+    "name": "Mì cay 7 cấp độ",
+    "unit": "gói",
+    "price": 11000,
+    "image": "mitom/mi_cay_7_cap_do.jpg"
+  },
+  {
     "name": "Mì ly Cung Đình",
     "unit": "ly",
     "price": 10000,
