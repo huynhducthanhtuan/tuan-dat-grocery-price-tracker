@@ -261,6 +261,13 @@
     "image": "douong/tra_o_long_tea_plus.jpg"
   },
   {
+    "name": "Trà đào nhiệt đới tea plus",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "image": "douong/tra_dao_nhiet_doi_tea_plus.jpg"
+  },
+  {
     "name": "Trà xanh fuze tea",
     "unit": "chai",
     "price": 10000,
@@ -506,6 +513,18 @@
     "unit": "ký",
     "price": 9000,
     "image": "gao/bap.jpg"
+  },
+  {
+    "name": "Nếp",
+    "unit": "ký",
+    "price": 20000,
+    "image": "gao/nep.jpg"
+  },
+  {
+    "name": "Muối hột",
+    "unit": "chén",
+    "price": 3000,
+    "image": "gao/muoi_hot.jpg"
   },
   {
     "name": "Mì hảo hảo",
