@@ -1269,8 +1269,14 @@
   {
     "name": "Dầu phật linh lớn",
     "unit": "chai",
-    "price": 22000,
+    "price": 20000,
     "image": "vatdung/dau_phat_linh_lon.jpg"
+  },
+  {
+    "name": "Dầu viêm xoang",
+    "unit": "chai",
+    "price": 20000,
+    "image": "vatdung/dau_viem_xoang.jpg"
   },
   {
     "name": "Tăm xỉa răng",
