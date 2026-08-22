@@ -1323,6 +1323,12 @@
     "image": "vatdung/choi_xuong.jpg"
   },
   {
+    "name": "Miếng nhấc nồi",
+    "unit": "cái",
+    "price": 3000,
+    "image": "vatdung/mieng_nhac_noi.jpg"
+  },
+  {
     "name": "Rượu hồ lô",
     "unit": "chai",
     "price": 5000,
