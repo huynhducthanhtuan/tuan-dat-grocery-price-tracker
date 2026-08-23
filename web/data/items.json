@@ -55,13 +55,13 @@
   {
     "name": "Sting vàng chai thủy tinh",
     "unit": "chai",
-    "price": 5000,
+    "price": 6000,
     "image": "douong/sting_vang_chai_thuy_tinh.jpg"
   },
   {
     "name": "Sting đỏ chai thủy tinh",
     "unit": "chai",
-    "price": 6000,
+    "price": 7000,
     "image": "douong/sting_do_chai_thuy_tinh.jpg"
   },
   {
