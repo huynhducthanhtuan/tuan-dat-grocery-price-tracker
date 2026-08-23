@@ -994,6 +994,7 @@
     "name": "Trứng vịt",
     "unit": "quả",
     "price": 4000,
+    "ten": 40000,
     "image": "trung/trung_vit.jpg"
   },
   {
