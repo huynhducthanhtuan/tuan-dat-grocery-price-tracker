@@ -987,6 +987,7 @@
     "name": "Trứng gà công nghiệp",
     "unit": "quả",
     "price": 3000,
+    "ten": 30000,
     "image": "trung/trung_ga_cong_nghiep.jpg"
   },
   {
