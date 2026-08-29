@@ -458,13 +458,13 @@
   {
     "name": "Thuốc con mèo craven",
     "unit": "gói",
-    "price": 18000,
+    "price": 17000,
     "image": "thuocla/thuoc_con_meo_craven.jpg"
   },
   {
     "name": "Thuốc sài gòn bạc",
     "unit": "gói",
-    "price": 17000,
+    "price": 18000,
     "image": "thuocla/thuoc_sai_gon_bac.jpg"
   },
   {
