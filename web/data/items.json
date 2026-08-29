@@ -261,6 +261,13 @@
     "image": "douong/tra_o_long_tea_plus.jpg"
   },
   {
+    "name": "Trà ô long tea plus lon",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "image": "douong/tra_o_long_tea_plus_lon.jpg"
+  },
+  {
     "name": "Trà đào nhiệt đới tea plus",
     "unit": "chai",
     "price": 10000,
