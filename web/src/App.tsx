@@ -142,7 +142,7 @@ export default function App() {
         <div className="status-bar">
           <div>
             <h2>Kết quả</h2>
-            <p>Xem chi tiết giá và mặt hàng.</p>
+            <p>Xem giá và hình ảnh của mặt hàng.</p>
           </div>
         </div>
 
