@@ -24,7 +24,7 @@
     "image": "douong/nutri.jpg"
   },
   {
-    "name": "C2",
+    "name": "Nước C2",
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
@@ -32,7 +32,7 @@
     "image": "douong/c2.jpg"
   },
   {
-    "name": "Revive",
+    "name": "Nước Revive",
     "unit": "chai",
     "price": 10000,
     "pack": 50000,
