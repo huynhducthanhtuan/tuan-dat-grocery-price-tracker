@@ -60,10 +60,8 @@ export default function App() {
       <header className="hero">
         <div>
           <span className="eyebrow">Tạp hóa Tuấn Đạt</span>
-          <h1>Trích xuất giá sản phẩm</h1>
-          <p>
-            Theo dõi giá hàng tạp hoá của Tuấn Đạt. Trích xuất giá và quản lý danh sách mặt hàng.
-          </p>
+          <h1>Xem giá sản phẩm</h1>
+          <p>Xem giá sản phẩm tại tạp hoá Tuấn Đạt.</p>
         </div>
       </header>
 
