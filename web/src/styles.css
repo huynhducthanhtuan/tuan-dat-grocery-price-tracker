@@ -455,6 +455,14 @@ tbody tr:last-child td {
     padding: 24px;
   }
 
+  .card.item-list {
+    display: none;
+  }
+
+  .status-bar {
+    margin-bottom: 0;
+  }
+
   .hero h1 {
     font-size: 25px;
   }
