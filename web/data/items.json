@@ -1381,12 +1381,6 @@
     "image": "vatdung/mieng_nhac_noi.jpg"
   },
   {
-    "name": "Rượu hồ lô",
-    "unit": "chai",
-    "price": 5000,
-    "image": "docung/ruou_ho_lo.jpg"
-  },
-  {
     "name": "Hương 3A",
     "unit": "tép",
     "price": 2000,
@@ -1431,6 +1425,12 @@
     "unit": "hộp",
     "price": 20000,
     "image": "docung/huong_di_dam.jpg"
+  },
+  {
+    "name": "Rượu hồ lô",
+    "unit": "chai",
+    "price": 5000,
+    "image": "docung/ruou_ho_lo.jpg"
   },
   {
     "name": "Giấy thế",
