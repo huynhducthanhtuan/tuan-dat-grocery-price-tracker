@@ -1237,7 +1237,7 @@
     "name": "Lưỡi lam",
     "unit": "cái",
     "price": 2000,
-    "box": 9000,
+    "pack": 9000,
     "image": "vatdung/luoi_lam.jpg"
   },
   {
