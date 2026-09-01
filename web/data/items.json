@@ -398,16 +398,28 @@
     "image": "sua/sua_hat_vinamilk_lon.jpg"
   },
   {
-    "name": "Sữa lon hoàn hảo",
+    "name": "Sữa lon Tài Lộc",
+    "unit": "lon",
+    "price": 19000,
+    "image": "sua/sua_lon_tai_loc.jpg"
+  },
+  {
+    "name": "Sữa lon Hoàn Hảo",
     "unit": "lon",
     "price": 22000,
     "image": "sua/sua_lon_hoan_hao.jpg"
   },
   {
-    "name": "Sữa lon Tài Lộc",
+    "name": "Sữa lon Ông Thọ",
     "unit": "lon",
-    "price": 19000,
-    "image": "sua/sua_lon_tai_loc.jpg"
+    "price": 27000,
+    "image": "sua/sua_lon_ong_tho.jpg"
+  },
+  {
+    "name": "Sữa lon Cô gái Hà Lan",
+    "unit": "lon",
+    "price": 32000,
+    "image": "sua/sua_lon_co_gai_ha_lan.jpg"
   },
   {
     "name": "Sữa bắp Nha Trang",
