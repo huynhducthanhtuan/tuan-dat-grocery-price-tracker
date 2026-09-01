@@ -697,6 +697,12 @@
     "image": "banhkeo/banh_nabati.jpg"
   },
   {
+    "name": "Bánh Nabati hộp",
+    "unit": "hộp",
+    "price": 38000,
+    "image": "banhkeo/banh_nabati_hop.jpg"
+  },
+  {
     "name": "Bánh mì sandwich",
     "unit": "xách",
     "price": 15000,
@@ -1539,5 +1545,29 @@
     "unit": "hộp",
     "price": 10000,
     "image": "docung/hop_giac.jpg"
+  },
+  {
+    "name": "Bộ đồ thần",
+    "unit": "bộ",
+    "price": 35000,
+    "image": "docung/bo_do_than.jpg"
+  },
+  {
+    "name": "Bộ đồ thanh niên",
+    "unit": "bộ",
+    "price": 25000,
+    "image": "docung/bo_do_thanh_nien.jpg"
+  },
+  {
+    "name": "Bộ đồ ông già",
+    "unit": "bộ",
+    "price": 20000,
+    "image": "docung/bo_do_ong_gia.jpg"
+  },
+  {
+    "name": "Bộ đồ bà già",
+    "unit": "bộ",
+    "price": 20000,
+    "image": "docung/bo_do_ba_gia.jpg"
   }
 ]
