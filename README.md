@@ -24,8 +24,7 @@ Website hỗ trợ **trích xuất và tra cứu giá sản phẩm** cho cửa h
 
 ### Công cụ cần thiết
 
-- Node.js 18+
-- npm
+- [Node.js 18+](https://nodejs.org/en/download)
 
 ### Hướng dẫn cài đặt
 
