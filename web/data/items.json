@@ -787,6 +787,12 @@
     "image": "banhkeo/banh_mi_sandwich_vela.jpg"
   },
   {
+    "name": "Bánh Pía",
+    "unit": "cái",
+    "price": 10000,
+    "image": "banhkeo/banh_pia.jpg"
+  },
+  {
     "name": "Bánh quy Cosy đỏ",
     "unit": "xách",
     "price": 15000,
