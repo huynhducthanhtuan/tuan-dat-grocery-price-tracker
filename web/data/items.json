@@ -504,6 +504,12 @@
     "image": "thuocla/thuoc_rave.jpg"
   },
   {
+    "name": "Thuốc Yett",
+    "unit": "gói",
+    "price": 15000,
+    "image": "thuocla/thuoc_yett.jpg"
+  },
+  {
     "name": "Gạo Tư Hoảnh đỏ",
     "unit": "bao",
     "price": 275000,
