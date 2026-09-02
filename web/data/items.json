@@ -325,6 +325,12 @@
     "image": "douong/nuoc_khoang_vikoda.jpg"
   },
   {
+    "name": "Bịch đá",
+    "unit": "bịch",
+    "price": 5000,
+    "image": "douong/da.jpg"
+  },
+  {
     "name": "Xách yến lon Chấn Vinh",
     "unit": "xách",
     "price": 55000,
