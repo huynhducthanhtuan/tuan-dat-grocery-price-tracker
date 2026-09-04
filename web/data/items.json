@@ -751,6 +751,12 @@
     "image": "banhkeo/banh_hop_win_do.jpg"
   },
   {
+    "name": "Bánh hộp Lucky đỏ",
+    "unit": "hộp",
+    "price": 60000,
+    "image": "banhkeo/banh_hop_lucky.jpg"
+  },
+  {
     "name": "Bánh hộp Cosy vàng",
     "unit": "hộp",
     "price": 70000,
