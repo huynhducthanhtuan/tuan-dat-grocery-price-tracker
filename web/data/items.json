@@ -781,10 +781,16 @@
     "image": "banhkeo/banh_mi_ngot.jpg"
   },
   {
-    "name": "Bánh mì socola Vela",
+    "name": "Bánh mì ngọt Tap",
     "unit": "cái",
     "price": 5000,
-    "image": "banhkeo/banh_mi_socola_vela.jpg"
+    "image": "banhkeo/banh_mi_tap.jpg"
+  },
+  {
+    "name": "Bánh mì ngọt Vela",
+    "unit": "cái",
+    "price": 5000,
+    "image": "banhkeo/banh_mi_vela.jpg"
   },
   {
     "name": "Bánh mì sandwich Vela",
@@ -793,10 +799,28 @@
     "image": "banhkeo/banh_mi_sandwich_vela.jpg"
   },
   {
+    "name": "Bánh Pía nhí",
+    "unit": "gói",
+    "price": 10000,
+    "image": "banhkeo/banh_pia_nhi.jpg"
+  },
+  {
     "name": "Bánh Pía nhỏ",
     "unit": "gói",
     "price": 20000,
-    "image": "banhkeo/banh_pia.jpg"
+    "image": "banhkeo/banh_pia_nho.jpg"
+  },
+  {
+    "name": "Bánh Pía trung",
+    "unit": "xách",
+    "price": 35000,
+    "image": "banhkeo/banh_pia_trung.jpg"
+  },
+  {
+    "name": "Bánh Pía lớn",
+    "unit": "hộp",
+    "price": 40000,
+    "image": "banhkeo/banh_pia_lon.jpg"
   },
   {
     "name": "Bánh quy Cosy đỏ",
