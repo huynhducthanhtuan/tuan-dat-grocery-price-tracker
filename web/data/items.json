@@ -559,6 +559,12 @@
     "image": "gao/nep.jpg"
   },
   {
+    "name": "Đậu phộng",
+    "unit": "lạng",
+    "price": 5000,
+    "image": "gao/dau_phong.jpg"
+  },
+  {
     "name": "Muối hột",
     "unit": "chén",
     "price": 3000,
@@ -942,6 +948,12 @@
     "unit": "tép",
     "price": 5000,
     "image": "banhkeo/tep_keo_su_doublemint.jpg"
+  },
+  {
+    "name": "Xúc xích",
+    "unit": "cây",
+    "price": 2000,
+    "image": "banhkeo/xuc_xich.jpg"
   },
   {
     "name": "Dầu đậu nành Tường An",
