@@ -355,6 +355,13 @@
     "image": "yen/yen_hu_tre_em.jpg"
   },
   {
+    "name": "Sữa Kun nhỏ",
+    "unit": "hộp",
+    "price": 5000,
+    "pack": 17000,
+    "image": "sua/sua_kun_nho.jpg"
+  },
+  {
     "name": "Sữa TH nhỏ",
     "unit": "hộp",
     "price": 6000,
@@ -745,12 +752,6 @@
     "image": "banhkeo/banh_hop_olala_do.jpg"
   },
   {
-    "name": "Bánh hộp Win đỏ",
-    "unit": "hộp",
-    "price": 55000,
-    "image": "banhkeo/banh_hop_win_do.jpg"
-  },
-  {
     "name": "Bánh hộp khoai tây Potato",
     "unit": "hộp",
     "price": 50000,
@@ -759,8 +760,14 @@
   {
     "name": "Bánh hộp Lucky đỏ",
     "unit": "hộp",
-    "price": 60000,
+    "price": 50000,
     "image": "banhkeo/banh_hop_lucky.jpg"
+  },
+  {
+    "name": "Bánh hộp Win đỏ",
+    "unit": "hộp",
+    "price": 55000,
+    "image": "banhkeo/banh_hop_win_do.jpg"
   },
   {
     "name": "Bánh hộp Cosy vàng",
