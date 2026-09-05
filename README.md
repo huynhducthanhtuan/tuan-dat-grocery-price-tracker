@@ -1,6 +1,6 @@
 # Trích xuất giá sản phẩm - Tạp hóa Tuấn Đạt
 
-Website **tra cứu giá sản phẩm** tại cửa hàng tạp hóa **Tuấn Đạt**.
+Website **trích xuất giá sản phẩm** tại cửa hàng tạp hóa **Tuấn Đạt**.
 
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/46e01439-9e83-4ec0-ad00-8e3969d9061d" />
 <img width="959" height="503" alt="image" src="https://github.com/user-attachments/assets/1270017a-7c2b-495d-9ea5-13d2e9a39f9e" />
