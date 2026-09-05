@@ -283,7 +283,6 @@ export default function App() {
         )}
       </section>
 
-      {/* Popup hiển thị ảnh */}
       {selectedImage && (
         <div
           style={{
@@ -393,7 +392,6 @@ export default function App() {
         </div>
       )}
 
-      {/* Footer với bản quyền */}
       <footer
         style={{
           marginTop: "20px",
