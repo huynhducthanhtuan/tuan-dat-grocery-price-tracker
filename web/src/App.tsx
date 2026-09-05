@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import { getItemImage } from "./helpers/itemImages";
-import { normalizeItem } from "./helpers/itemHelper";
+import { normalizeItem, removeVietnameseTones } from "./helpers/itemHelper";
 import initialItems from "../data/items.json";
 
 export default function App() {
@@ -33,7 +33,10 @@ export default function App() {
   );
 
   const filteredItems = useMemo(
-    () => items.filter((item) => item.name.toLowerCase().includes(searchTerm.toLowerCase())),
+    () =>
+      items.filter((item) =>
+        removeVietnameseTones(item.name).includes(removeVietnameseTones(searchTerm))
+      ),
     [items, searchTerm]
   );
 
