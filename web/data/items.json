@@ -331,16 +331,16 @@
     "image": "douong/da.jpg"
   },
   {
-    "name": "Xách yến lon Chấn Vinh",
+    "name": "Xách yến lon",
     "unit": "xách",
     "price": 55000,
-    "image": "yen/yen_chan_vinh.jpg"
+    "image": "yen/xach_yen_lon.jpg"
   },
   {
-    "name": "Xách yến hủ Sanest",
+    "name": "Xách yến hủ",
     "unit": "xách",
     "price": 200000,
-    "image": "yen/yen_hu_sanest.jpg"
+    "image": "yen/xach_yen_hu.jpg"
   },
   {
     "name": "Yến hủ người lớn",
