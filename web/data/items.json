@@ -668,6 +668,12 @@
     "image": "mitom/hu_tieu_cung_dinh.jpg"
   },
   {
+    "name": "Bún giò heo",
+    "unit": "gói",
+    "price": 10000,
+    "image": "mitom/bun_gio_heo.jpg"
+  },
+  {
     "name": "Cháo gấu đỏ",
     "unit": "gói",
     "price": 4000,
