@@ -282,6 +282,13 @@
     "image": "douong/tra_xanh_fuze_tea.jpg"
   },
   {
+    "name": "Trà xanh 100 green tea",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "image": "douong/tra_xanh_100.jpg"
+  },
+  {
     "name": "Trà Kim Sơn nhỏ",
     "unit": "gói",
     "price": 5000,
@@ -439,6 +446,13 @@
     "unit": "chai",
     "price": 10000,
     "image": "sua/sua_bap_nha_trang.jpg"
+  },
+  {
+    "name": "Sữa đậu nành lon Tribeco",
+    "unit": "lon",
+    "price": 10000,
+    "pack": 50000,
+    "image": "sua/sua_dau_nanh_lon_tribeco.jpg"
   },
   {
     "name": "Bia Tiger lùn",
