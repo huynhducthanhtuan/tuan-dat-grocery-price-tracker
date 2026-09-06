@@ -476,13 +476,6 @@
     "image": "biaruou/huda.jpg"
   },
   {
-    "name": "Bia Anh",
-    "unit": "lon",
-    "price": 11000,
-    "box": 260000,
-    "image": "biaruou/bia_anh.jpg"
-  },
-  {
     "name": "Rượu Vodka nhỏ",
     "unit": "chai",
     "price": 45000,
