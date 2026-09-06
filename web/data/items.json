@@ -479,13 +479,13 @@
     "name": "Rượu Vodka nhỏ",
     "unit": "chai",
     "price": 45000,
-    "image": "biaruou/ruou_vodka.jpg"
+    "image": "biaruou/ruou_vodka_nho.jpg"
   },
   {
     "name": "Rượu Vodka lớn",
     "unit": "chai",
     "price": 65000,
-    "image": "biaruou/ruou_vodka.jpg"
+    "image": "biaruou/ruou_vodka_lon.jpg"
   },
   {
     "name": "Thuốc con mèo craven",
