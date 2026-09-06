@@ -455,6 +455,12 @@
     "image": "sua/sua_dau_nanh_lon_tribeco.jpg"
   },
   {
+    "name": "Sữa bột milo",
+    "unit": "gói",
+    "price": 5000,
+    "image": "sua/sua_bot_milo.jpg"
+  },
+  {
     "name": "Bia Tiger lùn",
     "unit": "lon",
     "price": 13000,
@@ -1093,6 +1099,12 @@
     "unit": "gói",
     "price": 15000,
     "image": "giavi/bot_banh_xeo.jpg"
+  },
+  {
+    "name": "Bột rau câu",
+    "unit": "gói",
+    "price": 5000,
+    "image": "giavi/bot_rau_cau.jpg"
   },
   {
     "name": "Trứng gà công nghiệp",
