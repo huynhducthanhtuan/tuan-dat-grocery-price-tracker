@@ -948,13 +948,13 @@
     "name": "Kẹo su Doublemint",
     "unit": "cây",
     "price": 1000,
-    "image": "banhkeo/keo_su_doublemint_coolair.jpg"
+    "image": "banhkeo/keo_su_doublemint.jpg"
   },
   {
     "name": "Kẹo su Cool Air",
     "unit": "cây",
     "price": 1000,
-    "image": "banhkeo/keo_su_doublemint_coolair.jpg"
+    "image": "banhkeo/keo_su_coolair.jpg"
   },
   {
     "name": "Tép kẹo su Doublemint",
