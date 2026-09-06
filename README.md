@@ -60,4 +60,4 @@ http://localhost:5173
 
 ## 👥 Nhóm tác giả
 
-Huỳnh Đức Thanh Tuấn & Nguyễn Gia Hiền
+[Huỳnh Đức Thanh Tuấn](https://github.com/huynhducthanhtuan) & [Nguyễn Gia Hiền](https://github.com/hiengianguyen)
