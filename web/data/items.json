@@ -295,10 +295,16 @@
     "image": "douong/tra_kim_son_nho.jpg"
   },
   {
-    "name": "Cà phê sữa",
+    "name": "Cà phê sữa King Coffee",
     "unit": "gói",
     "price": 3000,
     "image": "douong/ca_phe_sua.jpg"
+  },
+  {
+    "name": "Cà phê sữa Nescafe",
+    "unit": "gói",
+    "price": 3500,
+    "image": "douong/ca_phe_sua_nescafe.jpg"
   },
   {
     "name": "Cà phê phố",
@@ -330,6 +336,20 @@
     "unit": "chai",
     "price": 7000,
     "image": "douong/nuoc_khoang_vikoda.jpg"
+  },
+  {
+    "name": "Trà bí đao nhỏ",
+    "unit": "chai",
+    "price": 7000,
+    "pack": 40000,
+    "image": "douong/tra_bi_dao_nho.jpg"
+  },
+  {
+    "name": "Trà bí đao lớn",
+    "unit": "chai",
+    "price": 10000,
+    "pack": 50000,
+    "image": "douong/tra_bi_dao_lon.jpg"
   },
   {
     "name": "Bịch đá",
@@ -440,6 +460,18 @@
     "unit": "lon",
     "price": 32000,
     "image": "sua/sua_lon_co_gai_ha_lan.jpg"
+  },
+  {
+    "name": "Hộp sữa đặc Star",
+    "unit": "hộp",
+    "price": 58000,
+    "image": "sua/hop_sua_dac_star.jpg"
+  },
+  {
+    "name": "Hộp sữa đặc ngôi sao phương nam",
+    "unit": "hộp",
+    "price": 70000,
+    "image": "sua/hop_sua_dac_ngoi_sao_phuong_nam.jpg"
   },
   {
     "name": "Sữa bắp Nha Trang",
@@ -751,6 +783,12 @@
     "unit": "xách",
     "price": 15000,
     "image": "banhkeo/banh_mi_sandwich.jpg"
+  },
+  {
+    "name": "Bánh xách socola Longpie",
+    "unit": "bịch",
+    "price": 40000,
+    "image": "banhkeo/banh_socola_longpie.jpg"
   },
   {
     "name": "Bánh tráng trộn",
@@ -1249,6 +1287,12 @@
     "unit": "canh",
     "price": 150000,
     "image": "nuoctayrua/nuoc_giat_xa_swat.jpg"
+  },
+  {
+    "name": "Nước Sunlight lau sàn",
+    "unit": "chai",
+    "price": 35000,
+    "image": "nuoctayrua/nuoc_sunlight_lau_san.jpg"
   },
   {
     "name": "Giấm ngâm lồng",
