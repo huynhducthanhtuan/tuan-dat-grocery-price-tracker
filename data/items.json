@@ -134,12 +134,6 @@
     "image": "douong/7up_chai_nho.jpg"
   },
   {
-    "name": "7up chai thủy tinh",
-    "unit": "chai",
-    "price": 5000,
-    "image": "douong/7up_chai_thuy_tinh.jpg"
-  },
-  {
     "name": "7up lon",
     "unit": "lon",
     "price": 10000,
