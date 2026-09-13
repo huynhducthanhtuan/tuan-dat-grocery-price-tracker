@@ -459,13 +459,13 @@
     "name": "Hộp sữa đặc Star",
     "unit": "hộp",
     "price": 58000,
-    "image": "sua/hop_sua_dac_star.jpg"
+    "image": "sua/sua_dac_star.jpg"
   },
   {
     "name": "Hộp sữa đặc ngôi sao phương nam",
     "unit": "hộp",
     "price": 70000,
-    "image": "sua/hop_sua_dac_ngoi_sao_phuong_nam.jpg"
+    "image": "sua/sua_dac_ngoi_sao_phuong_nam.jpg"
   },
   {
     "name": "Sữa bắp Nha Trang",
