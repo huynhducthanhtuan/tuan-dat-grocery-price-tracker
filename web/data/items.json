@@ -1425,6 +1425,12 @@
     "image": "vatdung/nho_va_long.jpg"
   },
   {
+    "name": "Kim vá lồng",
+    "unit": "cái",
+    "price": 5000,
+    "image": "vatdung/kim_va_long.jpg"
+  },
+  {
     "name": "Bài",
     "unit": "bộ",
     "price": 7000,
@@ -1522,6 +1528,12 @@
     "unit": "cái",
     "price": 3000,
     "image": "vatdung/mieng_nhac_noi.jpg"
+  },
+  {
+    "name": "Ca đựng nước",
+    "unit": "cái",
+    "price": 5000,
+    "image": "vatdung/ca_dung_nuoc.jpg"
   },
   {
     "name": "Hương 3A",
