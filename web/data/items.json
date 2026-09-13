@@ -1121,6 +1121,12 @@
     "image": "giavi/nua_ky_duong.jpg"
   },
   {
+    "name": "Ký đường",
+    "unit": "bịch",
+    "price": 24000,
+    "image": "giavi/ky_duong.jpg"
+  },
+  {
     "name": "Sa tế tôm",
     "unit": "hộp",
     "price": 6000,
