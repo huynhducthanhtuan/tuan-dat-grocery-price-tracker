@@ -34,10 +34,10 @@ Clone the repository:
 git clone https://github.com/huynhducthanhtuan/tuan-dat-grocery-price-tracker.git
 ```
 
-Navigate to the main working folder - the web folder:
+Navigate to the root folder:
 
 ```bash
-cd tuan-dat-grocery-price-tracker/web
+cd tuan-dat-grocery-price-tracker
 ```
 
 Install dependencies:
