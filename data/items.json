@@ -140,6 +140,12 @@
     "image": "douong/7up_lon.jpg"
   },
   {
+    "name": "7up chai thủy tinh",
+    "unit": "chai",
+    "price": 5000,
+    "image": "douong/7up_chai_thuy_tinh.jpg"
+  },
+  {
     "name": "Sprite nhí",
     "unit": "chai",
     "price": 5000,
