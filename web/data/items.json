@@ -1432,7 +1432,7 @@
   },
   {
     "name": "Kim vá lồng",
-    "unit": "cái",
+    "unit": "cây",
     "price": 5000,
     "image": "vatdung/kim_va_long.jpg"
   },
@@ -1531,7 +1531,7 @@
   },
   {
     "name": "Ca đựng nước",
-    "unit": "cái",
+    "unit": "ca",
     "price": 5000,
     "image": "vatdung/ca_dung_nuoc.jpg"
   },
