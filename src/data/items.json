@@ -695,10 +695,10 @@
     "image": "mitom/mi_ly_lau_thai_modern.jpg"
   },
   {
-    "name": "Mì thố Kool đỏ",
+    "name": "Mì thố Kool",
     "unit": "thố",
     "price": 14000,
-    "image": "mitom/mi_tho_kool_do.jpg"
+    "image": "mitom/mi_tho_kool.jpg"
   },
   {
     "name": "Phở Cung Đình",
@@ -1440,7 +1440,7 @@
     "name": "Ghim vá lồng",
     "unit": "cây",
     "price": 3000,
-    "image": "vatdung/kim_va_long.jpg"
+    "image": "vatdung/ghim_va_long.jpg"
   },
   {
     "name": "Bài",
