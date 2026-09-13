@@ -1431,9 +1431,9 @@
     "image": "vatdung/nho_va_long.jpg"
   },
   {
-    "name": "Kim vá lồng",
+    "name": "Ghim vá lồng",
     "unit": "cây",
-    "price": 5000,
+    "price": 3000,
     "image": "vatdung/kim_va_long.jpg"
   },
   {
@@ -1584,7 +1584,7 @@
   {
     "name": "Rượu hồ lô",
     "unit": "chai",
-    "price": 3000,
+    "price": 4000,
     "image": "docung/ruou_ho_lo.jpg"
   },
   {
