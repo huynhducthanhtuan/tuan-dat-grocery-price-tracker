@@ -358,6 +358,39 @@
     "image": "douong/da.jpg"
   },
   {
+    "name": "Bia Tiger lùn",
+    "unit": "lon",
+    "price": 13000,
+    "box": 300000,
+    "image": "biaruou/tiger_lun.jpg"
+  },
+  {
+    "name": "Bia Larue",
+    "unit": "lon",
+    "price": 12000,
+    "box": 280000,
+    "image": "biaruou/larue.jpg"
+  },
+  {
+    "name": "Bia Huda",
+    "unit": "lon",
+    "price": 12500,
+    "box": 280000,
+    "image": "biaruou/huda.jpg"
+  },
+  {
+    "name": "Rượu Vodka nhỏ",
+    "unit": "chai",
+    "price": 45000,
+    "image": "biaruou/ruou_vodka_nho.jpg"
+  },
+  {
+    "name": "Rượu Vodka lớn",
+    "unit": "chai",
+    "price": 65000,
+    "image": "biaruou/ruou_vodka_lon.jpg"
+  },
+  {
     "name": "Xách yến lon",
     "unit": "xách",
     "price": 55000,
@@ -491,39 +524,6 @@
     "unit": "gói",
     "price": 5000,
     "image": "sua/sua_bot_milo.jpg"
-  },
-  {
-    "name": "Bia Tiger lùn",
-    "unit": "lon",
-    "price": 13000,
-    "box": 300000,
-    "image": "biaruou/tiger_lun.jpg"
-  },
-  {
-    "name": "Bia Larue",
-    "unit": "lon",
-    "price": 12000,
-    "box": 280000,
-    "image": "biaruou/larue.jpg"
-  },
-  {
-    "name": "Bia Huda",
-    "unit": "lon",
-    "price": 12500,
-    "box": 280000,
-    "image": "biaruou/huda.jpg"
-  },
-  {
-    "name": "Rượu Vodka nhỏ",
-    "unit": "chai",
-    "price": 45000,
-    "image": "biaruou/ruou_vodka_nho.jpg"
-  },
-  {
-    "name": "Rượu Vodka lớn",
-    "unit": "chai",
-    "price": 65000,
-    "image": "biaruou/ruou_vodka_lon.jpg"
   },
   {
     "name": "Thuốc con mèo craven",
