@@ -1419,6 +1419,12 @@
     "image": "vatdung/hop_quet_kho.jpg"
   },
   {
+    "name": "Vành lồng",
+    "unit": "cái",
+    "price": 7000,
+    "image": "vatdung/vanh_long.jpg"
+  },
+  {
     "name": "Nhợ vá lồng",
     "unit": "tép",
     "price": 12000,
@@ -1498,12 +1504,6 @@
     "price": 2500,
     "pack": 10000,
     "image": "vatdung/pin_con_tho_lon.jpg"
-  },
-  {
-    "name": "Vành lồng",
-    "unit": "cái",
-    "price": 7000,
-    "image": "vatdung/vanh_long.jpg"
   },
   {
     "name": "Móc phơi đồ",
