@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { getItemImage } from "./helpers/itemImages";
 import { normalizeItem, removeVietnameseTones } from "./helpers/itemHelper";
-import initialItems from "../data/items.json";
+import initialItems from "./data/items.json";
 
 export default function App() {
   const items = (initialItems as any[]).map(normalizeItem);
