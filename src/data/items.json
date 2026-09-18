@@ -1013,6 +1013,30 @@
     "image": "banhkeo/xuc_xich.jpg"
   },
   {
+    "name": "Bánh cốm",
+    "unit": "cái",
+    "price": 2000,
+    "image": "banhkeo/banh_com.jpg"
+  },
+  {
+    "name": "Bánh tai thỏ",
+    "unit": "cái",
+    "price": 2000,
+    "image": "banhkeo/banh_tai_tho.jpg"
+  },
+  {
+    "name": "Bánh gậy như ý",
+    "unit": "cây",
+    "price": 2000,
+    "image": "banhkeo/banh_gay_nhu_y.jpg"
+  },
+  {
+    "name": "Kẹo xe đồ chơi",
+    "unit": "cái",
+    "price": 5000,
+    "image": "banhkeo/keo_xe_do_choi.jpg"
+  },
+  {
     "name": "Dầu đậu nành Tường An",
     "unit": "chai",
     "price": 55000,
