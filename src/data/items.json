@@ -1388,6 +1388,12 @@
     "image": "giaykhan/bi_thu.jpg"
   },
   {
+    "name": "Khăn lau",
+    "unit": "cái",
+    "price": 3500,
+    "image": "giaykhan/khan_lau.jpg"
+  },
+  {
     "name": "Áo mưa phương tiện",
     "unit": "cái",
     "price": 10000,
