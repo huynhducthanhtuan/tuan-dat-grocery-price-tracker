@@ -1572,6 +1572,12 @@
     "image": "vatdung/ca_dung_nuoc.jpg"
   },
   {
+    "name": "Bút bi",
+    "unit": "cây",
+    "price": 5000,
+    "image": "vatdung/but_bi.jpg"
+  },
+  {
     "name": "Hương 3A",
     "unit": "tép",
     "price": 2000,
