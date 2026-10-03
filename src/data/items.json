@@ -457,6 +457,19 @@
     "image": "sua/sua_hop_fami_nho.jpg"
   },
   {
+    "name": "Sữa Fami gói",
+    "unit": "gói",
+    "price": 4000,
+    "image": "sua/sua_fami_goi.jpg"
+  },
+  {
+    "name": "Sữa hạt óc chó Veyo",
+    "unit": "hộp",
+    "price": 8000,
+    "pack": 24000,
+    "image": "sua/sua_hat_veyo.jpg"
+  },
+  {
     "name": "Sữa cô gái hà lan nhỏ",
     "unit": "hộp",
     "price": 6000,
@@ -568,6 +581,12 @@
     "image": "thuocla/thuoc_yett.jpg"
   },
   {
+    "name": "Thuốc Yett Demi",
+    "unit": "gói",
+    "price": 11000,
+    "image": "thuocla/thuoc_yett_demi.jpg"
+  },
+  {
     "name": "Gạo Tư Hoảnh đỏ",
     "unit": "bao",
     "price": 275000,
@@ -669,6 +688,12 @@
     "unit": "gói",
     "price": 5000,
     "image": "mitom/mi_omachi.jpg"
+  },
+  {
+    "name": "Mì gói cung đình",
+    "unit": "gói",
+    "price": 5000,
+    "image": "mitom/mi_cung_dinh.jpg"
   },
   {
     "name": "Mì cay 7 cấp độ",
@@ -1031,6 +1056,36 @@
     "image": "banhkeo/banh_gay_nhu_y.jpg"
   },
   {
+    "name": "Bánh mì ngọt",
+    "unit": "gói",
+    "price": 10000,
+    "image": "banhkeo/banh_mi_ngot_an_lien.jpg"
+  },
+  {
+    "name": "Bánh mì sandwich dâu tây",
+    "unit": "gói",
+    "price": 5000,
+    "image": "banhkeo/banh_sandwich_dau_tay.jpg"
+  },
+  {
+    "name": "Bánh trung thu",
+    "unit": "gói",
+    "price": 10000,
+    "image": "banhkeo/banh_trung_thu.jpg"
+  },
+  {
+    "name": "Kẹo gói",
+    "unit": "gói",
+    "price": 6000,
+    "image": "banhkeo/keo_goi.jpg"
+  },
+  {
+    "name": "Kẹo đậu phộng",
+    "unit": "bịch",
+    "price": 10000,
+    "image": "banhkeo/keo_dau_phong.jpg"
+  },
+  {
     "name": "Kẹo xe đồ chơi",
     "unit": "cái",
     "price": 5000,
@@ -1323,6 +1378,24 @@
     "unit": "chai",
     "price": 35000,
     "image": "nuoctayrua/nuoc_sunlight_lau_san.jpg"
+  },
+  {
+    "name": "Nước lau sàn Homie",
+    "unit": "chai",
+    "price": 27000,
+    "image": "nuoctayrua/nuoc_lau_san_homie.jpg"
+  },
+  {
+    "name": "Nước xả vải Homie",
+    "unit": "canh",
+    "price": 100000,
+    "image": "nuoctayrua/nuoc_xa_vai_homie.jpg"
+  },
+  {
+    "name": "Nước giặt xả Homie",
+    "unit": "canh",
+    "price": 145000,
+    "image": "nuoctayrua/nuoc_giat_xa_homie.jpg"
   },
   {
     "name": "Giấm ngâm lồng",
