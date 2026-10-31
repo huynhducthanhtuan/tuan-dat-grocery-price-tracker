@@ -847,6 +847,12 @@
     "image": "banhkeo/banh_hop_chocovina_do.jpg"
   },
   {
+    "name": "Bánh hộp socola Mallow Pie",
+    "unit": "hộp",
+    "price": 35000,
+    "image": "banhkeo/banh_hop_socola_mallow_pie.jpg"
+  },
+  {
     "name": "Bánh hộp Olala đỏ",
     "unit": "hộp",
     "price": 50000,
