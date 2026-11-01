@@ -455,7 +455,7 @@
     "name": "Sữa Milo nhỏ",
     "unit": "hộp",
     "price": 6000,
-    "pack": 22000,
+    "pack": 21000,
     "image": "sua/milo_nho.jpg"
   },
   {
@@ -469,7 +469,7 @@
     "name": "Sữa Fami nhỏ",
     "unit": "hộp",
     "price": 5000,
-    "pack": 28000,
+    "pack": 27000,
     "image": "sua/sua_hop_fami_nho.jpg"
   },
   {
