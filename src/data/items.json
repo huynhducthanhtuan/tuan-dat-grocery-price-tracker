@@ -344,6 +344,7 @@
     "name": "Nước khoáng Vikoda",
     "unit": "chai",
     "price": 7000,
+    "pack": 40000,
     "image": "douong/nuoc_khoang_vikoda.jpg"
   },
   {
