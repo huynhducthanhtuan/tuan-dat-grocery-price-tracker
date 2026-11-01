@@ -778,6 +778,12 @@
     "image": "mitom/chao_yen.jpg"
   },
   {
+    "name": "Gói miến",
+    "unit": "gói",
+    "price": 30000,
+    "image": "mitom/goi_mien.jpg"
+  },
+  {
     "name": "Bánh tráng gạo",
     "unit": "cái",
     "price": 5000,
