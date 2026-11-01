@@ -330,12 +330,14 @@
     "name": "Nước khoáng Đảnh Thạnh",
     "unit": "chai",
     "price": 7000,
+    "pack": 40000,
     "image": "douong/nuoc_khoang_danh_thanh.jpg"
   },
   {
     "name": "Nước khoáng Sparkling",
     "unit": "chai",
     "price": 7000,
+    "pack": 40000,
     "image": "douong/nuoc_khoang_sparkling.jpg"
   },
   {
@@ -429,10 +431,17 @@
     "image": "sua/sua_kun_nho.jpg"
   },
   {
+    "name": "Sữa Kun socola nhỏ",
+    "unit": "hộp",
+    "price": 5000,
+    "pack": 19000,
+    "image": "sua/sua_kun_socola_nho.jpg"
+  },
+  {
     "name": "Sữa TH nhỏ",
     "unit": "hộp",
     "price": 6000,
-    "pack": 22000,
+    "pack": 24000,
     "image": "sua/th_nho.jpg"
   },
   {
