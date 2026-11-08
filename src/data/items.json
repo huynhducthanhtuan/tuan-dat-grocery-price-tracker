@@ -907,7 +907,7 @@
   {
     "name": "Bánh hộp Walys",
     "unit": "hộp",
-    "price": 30000,
+    "price": 35000,
     "image": "banhkeo/banh_hop_walys.jpg"
   },
   {
@@ -997,7 +997,7 @@
   {
     "name": "Bánh gạo Want Want to",
     "unit": "xách",
-    "price": 20000,
+    "price": 22000,
     "image": "banhkeo/banh_gao_want_want_to.jpg"
   },
   {
