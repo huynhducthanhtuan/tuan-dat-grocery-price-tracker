@@ -893,6 +893,24 @@
     "image": "banhkeo/banh_hop_win_do.jpg"
   },
   {
+    "name": "Bánh hộp socola Combo Pie",
+    "unit": "hộp",
+    "price": 40000,
+    "image": "banhkeo/banh_hop_socola_combo_pie.jpg"
+  },
+  {
+    "name": "Bánh hộp thiếc Nabati",
+    "unit": "hộp",
+    "price": 50000,
+    "image": "banhkeo/banh_hop_thiec_nabati.jpg"
+  },
+  {
+    "name": "Bánh hộp thiếc Melody",
+    "unit": "hộp",
+    "price": 60000,
+    "image": "banhkeo/banh_hop_thiec_melody.jpg"
+  },
+  {
     "name": "Bánh hộp Cosy vàng",
     "unit": "hộp",
     "price": 70000,
