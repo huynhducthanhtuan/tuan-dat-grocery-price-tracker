@@ -1428,6 +1428,12 @@
     "image": "nuoctayrua/bao_bot_giat_omo_lon.jpg"
   },
   {
+    "name": "Nước giặt omo lớn",
+    "unit": "bịch",
+    "price": 155000,
+    "image": "nuoctayrua/nuoc_giat_omo_lon.jpg"
+  },
+  {
     "name": "Nước rửa chén lix vàng",
     "unit": "chai",
     "price": 12000,
