@@ -1167,6 +1167,12 @@
     "image": "banhkeo/banh_trung_thu_nho.jpg"
   },
   {
+    "name": "Bánh gato",
+    "unit": "bịch",
+    "price": 10000,
+    "image": "banhkeo/banh_gato.jpg"
+  },
+  {
     "name": "Kẹo gói",
     "unit": "gói",
     "price": 6000,
@@ -1183,6 +1189,24 @@
     "unit": "cái",
     "price": 5000,
     "image": "banhkeo/keo_xe_do_choi.jpg"
+  },
+  {
+    "name": "Kẹo me",
+    "unit": "bịch",
+    "price": 10000,
+    "image": "banhkeo/keo_me.jpg"
+  },
+  {
+    "name": "Kẹo lạc - kẹo dồi",
+    "unit": "bịch",
+    "price": 10000,
+    "image": "banhkeo/keo_lac_keo_doi.jpg"
+  },
+  {
+    "name": "Kẹo lạc vừng",
+    "unit": "bịch",
+    "price": 10000,
+    "image": "banhkeo/keo_lac_vung.jpg"
   },
   {
     "name": "Dầu đậu nành Tường An",
