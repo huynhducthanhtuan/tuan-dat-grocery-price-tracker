@@ -386,7 +386,7 @@ export default function App() {
                 fontSize: "14px",
               }}
             >
-              <p>Click bên ngoài ảnh hoặc nhấn ✕ để đóng</p>
+              <p>Click ra ngoài hoặc nhấn ✕ để đóng</p>
             </div>
           </div>
         </div>
