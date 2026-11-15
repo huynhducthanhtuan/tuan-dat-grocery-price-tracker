@@ -371,21 +371,21 @@
     "name": "Bia Tiger lùn",
     "unit": "lon",
     "price": 13000,
-    "box": 300000,
+    "box": 305000,
     "image": "biaruou/tiger_lun.jpg"
   },
   {
     "name": "Bia Larue",
     "unit": "lon",
     "price": 12000,
-    "box": 280000,
+    "box": 285000,
     "image": "biaruou/larue.jpg"
   },
   {
     "name": "Bia Huda",
     "unit": "lon",
     "price": 12500,
-    "box": 280000,
+    "box": 285000,
     "image": "biaruou/huda.jpg"
   },
   {
