@@ -655,12 +655,14 @@
     "name": "Mì hảo hảo",
     "unit": "gói",
     "price": 4500,
+    "box": 127000,
     "image": "mitom/mi_hao_hao.jpg"
   },
   {
     "name": "Mì 3 miền",
     "unit": "gói",
     "price": 4000,
+    "box": 118000,
     "image": "mitom/mi_3_mien.jpg"
   },
   {
@@ -752,12 +754,14 @@
     "name": "Phở Cung Đình",
     "unit": "gói",
     "price": 8000,
+    "box": 230000,
     "image": "mitom/pho_cung_dinh.jpg"
   },
   {
     "name": "Hủ tiếu Cung Đình",
     "unit": "gói",
     "price": 9000,
+    "box": 260000,
     "image": "mitom/hu_tieu_cung_dinh.jpg"
   },
   {
