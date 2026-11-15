@@ -1765,6 +1765,12 @@
     "image": "vatdung/binh_xit_con_trung.jpg"
   },
   {
+    "name": "Bao ni lông",
+    "unit": "lạng",
+    "price": 5000,
+    "image": "vatdung/bao_ni_long.jpg"
+  },
+  {
     "name": "Hương 3A",
     "unit": "tép",
     "price": 2000,
