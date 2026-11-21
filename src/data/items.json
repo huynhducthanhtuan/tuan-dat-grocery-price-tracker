@@ -1577,11 +1577,11 @@
     "image": "giaykhan/bang_ve_sinh_sila_hang_ngay.jpg"
   },
   {
-    "name": "Khẩu trang 5D Thịnh Phát",
+    "name": "Khẩu trang y tế",
     "unit": "cái",
-    "price": 2000,
-    "pack": 15000,
-    "image": "giaykhan/khau_trang_5d_thinh_phat.jpg"
+    "price": 1000,
+    "pack": 10000,
+    "image": "giaykhan/khau_trang_y_te.jpg"
   },
   {
     "name": "Bông ráy tai",
