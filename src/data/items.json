@@ -1107,6 +1107,12 @@
     "image": "banhkeo/banh_com.jpg"
   },
   {
+    "name": "Bánh cốm bắp nâu",
+    "unit": "cái",
+    "price": 2000,
+    "image": "banhkeo/banh_com_bap_nau.jpg"
+  },
+  {
     "name": "Bánh tai thỏ",
     "unit": "cái",
     "price": 2000,
