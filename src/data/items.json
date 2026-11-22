@@ -789,6 +789,12 @@
     "image": "mitom/goi_mien.jpg"
   },
   {
+    "name": "Bún khô",
+    "unit": "lạng",
+    "price": 2500,
+    "image": "mitom/bun_kho.jpg"
+  },
+  {
     "name": "Bánh tráng gạo",
     "unit": "cái",
     "price": 5000,
@@ -955,6 +961,12 @@
     "unit": "cái",
     "price": 5000,
     "image": "banhkeo/banh_mi_vela.jpg"
+  },
+  {
+    "name": "Bánh mì Vela Coco Nớt",
+    "unit": "cái",
+    "price": 5000,
+    "image": "banhkeo/banh_mi_vela_coconut.jpg"
   },
   {
     "name": "Bánh mì sandwich Vela",
