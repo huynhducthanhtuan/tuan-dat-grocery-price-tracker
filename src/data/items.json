@@ -1989,10 +1989,28 @@
     "image": "docung/bo_do_than.jpg"
   },
   {
+    "name": "Bộ đồ vô danh",
+    "unit": "bộ",
+    "price": 25000,
+    "image": "docung/bo_do_vo_danh.jpg"
+  },
+  {
     "name": "Bộ đồ thanh niên",
     "unit": "bộ",
     "price": 25000,
     "image": "docung/bo_do_thanh_nien.jpg"
+  },
+  {
+    "name": "Bộ đồ sơ mi thanh niên",
+    "unit": "bộ",
+    "price": 25000,
+    "image": "docung/bo_do_so_mi_thanh_nien.jpg"
+  },
+  {
+    "name": "Bộ đồ con gái",
+    "unit": "bộ",
+    "price": 25000,
+    "image": "docung/bo_do_con_gai.jpg"
   },
   {
     "name": "Bộ đồ ông già",
@@ -2005,5 +2023,17 @@
     "unit": "bộ",
     "price": 20000,
     "image": "docung/bo_do_ba_gia.jpg"
+  },
+  {
+    "name": "Bộ đồ vest trung niên",
+    "unit": "bộ",
+    "price": 30000,
+    "image": "docung/bo_do_vest_trung_nien.jpg"
+  },
+  {
+    "name": "Bộ đồ cô bà",
+    "unit": "bộ",
+    "price": 35000,
+    "image": "docung/bo_do_co_ba.jpg"
   }
 ]
