@@ -1983,10 +1983,16 @@
     "image": "docung/hop_giac.jpg"
   },
   {
-    "name": "Bộ đồ thần",
+    "name": "Bộ đồ ông già",
     "unit": "bộ",
-    "price": 35000,
-    "image": "docung/bo_do_than.jpg"
+    "price": 20000,
+    "image": "docung/bo_do_ong_gia.jpg"
+  },
+  {
+    "name": "Bộ đồ bà già",
+    "unit": "bộ",
+    "price": 20000,
+    "image": "docung/bo_do_ba_gia.jpg"
   },
   {
     "name": "Bộ đồ vô danh",
@@ -2013,18 +2019,6 @@
     "image": "docung/bo_do_con_gai.jpg"
   },
   {
-    "name": "Bộ đồ ông già",
-    "unit": "bộ",
-    "price": 20000,
-    "image": "docung/bo_do_ong_gia.jpg"
-  },
-  {
-    "name": "Bộ đồ bà già",
-    "unit": "bộ",
-    "price": 20000,
-    "image": "docung/bo_do_ba_gia.jpg"
-  },
-  {
     "name": "Bộ đồ vest trung niên",
     "unit": "bộ",
     "price": 30000,
@@ -2035,5 +2029,11 @@
     "unit": "bộ",
     "price": 35000,
     "image": "docung/bo_do_co_ba.jpg"
+  },
+  {
+    "name": "Bộ đồ thần",
+    "unit": "bộ",
+    "price": 35000,
+    "image": "docung/bo_do_than.jpg"
   }
 ]
