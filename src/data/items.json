@@ -893,7 +893,7 @@
   {
     "name": "Bánh hộp Lucky đỏ",
     "unit": "hộp",
-    "price": 50000,
+    "price": 60000,
     "image": "banhkeo/banh_hop_lucky.jpg"
   },
   {
@@ -1463,12 +1463,18 @@
   },
   {
     "name": "Bột giặt omo nhỏ",
-    "unit": "gói",
+    "unit": "bịch",
     "price": 20000,
     "image": "nuoctayrua/bot_giat_omo_nho.jpg"
   },
   {
     "name": "Bột giặt omo lớn",
+    "unit": "bịch",
+    "price": 36000,
+    "image": "nuoctayrua/bot_giat_omo_lon.jpg"
+  },
+  {
+    "name": "Bao bột giặt omo lớn",
     "unit": "bao",
     "price": 130000,
     "image": "nuoctayrua/bao_bot_giat_omo_lon.jpg"
