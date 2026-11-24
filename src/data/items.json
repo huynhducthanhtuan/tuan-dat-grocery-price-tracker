@@ -1947,16 +1947,34 @@
     "image": "docung/cuc_tien_do.jpg"
   },
   {
+    "name": "Cặp đèn sáp trung",
+    "unit": "cặp",
+    "price": 8000,
+    "image": "docung/cap_den_sap_trung.jpg"
+  },
+  {
     "name": "Cặp đèn nắp căng",
     "unit": "cặp",
     "price": 2000,
     "image": "docung/cap_den_nap_cang.jpg"
   },
   {
-    "name": "Cặp đèn ly",
+    "name": "Cặp đèn ly nhỏ",
     "unit": "cặp",
     "price": 6000,
-    "image": "docung/cap_den_ly.jpg"
+    "image": "docung/cap_den_ly_nho.jpg"
+  },
+  {
+    "name": "Cặp đèn ly trung",
+    "unit": "cặp",
+    "price": 25000,
+    "image": "docung/cap_den_ly_trung.jpg"
+  },
+  {
+    "name": "Cặp đèn ly lớn",
+    "unit": "cặp",
+    "price": 35000,
+    "image": "docung/cap_den_ly_lon.jpg"
   },
   {
     "name": "Cháo thánh",
