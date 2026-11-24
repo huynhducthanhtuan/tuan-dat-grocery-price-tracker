@@ -49,7 +49,7 @@ export default function App() {
       setSelectedImage(imageUrl);
       setSelectedItemName(itemName);
     } else {
-      alert(`Không có ảnh cho sản phẩm "${itemName}"`);
+      alert(`Không có ảnh cho mặt hàng "${itemName}"`);
     }
   };
 
@@ -62,9 +62,11 @@ export default function App() {
     <div className="app">
       <header className="hero">
         <div>
-          <span className="eyebrow">Tạp hóa Tuấn Đạt</span>
-          <h1>Xem giá sản phẩm</h1>
-          <p>Xem giá sản phẩm tại tạp hoá Tuấn Đạt.</p>
+          <span className="eyebrow">
+            Tạp hóa Tuấn Đạt - Tổ 14, KP. Tam Thanh, P. Quảng Phú, TP. Đà Nẵng
+          </span>
+          <h1>Xem giá mặt hàng</h1>
+          <p>Xem giá mặt hàng tại tạp hoá Tuấn Đạt.</p>
         </div>
       </header>
 
@@ -405,9 +407,12 @@ export default function App() {
             maxWidth: "1200px",
           }}
         >
-          <p style={{ marginBottom: 0 }}>© {new Date().getFullYear()} Tạp hóa Tuấn Đạt.</p>
-          <p style={{ marginBottom: 0, marginTop: "5px" }}>Phát triển bởi</p>
-          <b>Huỳnh Đức Thanh Tuấn & Nguyễn Gia Hiền</b>
+          <p style={{ marginBottom: 0, fontWeight: "bold" }}>
+            © {new Date().getFullYear()} Bản quyền thuộc về Tạp hóa Tuấn Đạt.
+          </p>
+          <p style={{ marginBottom: 0, fontWeight: "bold", marginTop: "5px" }}>
+            Địa chỉ: Tổ 14, KP. Tam Thanh, P. Quảng Phú, TP. Đà Nẵng - Điện Thoại: 0366.106.978
+          </p>
         </div>
       </footer>
     </div>
