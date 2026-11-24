@@ -144,6 +144,7 @@
     "name": "7up lon",
     "unit": "lon",
     "price": 10000,
+    "pack": 50000,
     "image": "douong/7up_lon.jpg"
   },
   {
@@ -405,8 +406,8 @@
   {
     "name": "Bia Heineken lớn",
     "unit": "lon",
-    "price": 20000,
-    "box": 480000,
+    "price": 20500,
+    "box": 485000,
     "image": "biaruou/heineken_lon.jpg"
   },
   {
