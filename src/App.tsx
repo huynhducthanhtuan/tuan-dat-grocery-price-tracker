@@ -64,7 +64,7 @@ export default function App() {
         <div>
           <span className="eyebrow">Tạp hóa Tuấn Đạt</span>
           <h1>Xem giá mặt hàng</h1>
-          <p>Xem giá mặt hàng tại tạp hoá Tuấn Đạt.</p>
+          <p>Xem giá mặt hàng tại Tạp hoá Tuấn Đạt</p>
         </div>
       </header>
 
@@ -128,9 +128,10 @@ export default function App() {
       </section>
 
       <section className="search-bar card">
-        <div className="status-bar" style={{ width: "100%" }}>
+        <div className="status-bar" style={{ width: "100%", marginBottom: 0 }}>
           <div>
             <h2>Tìm mặt hàng</h2>
+            <p>Nhập tên mặt hàng để tìm kiếm</p>
           </div>
         </div>
         <input
@@ -145,12 +146,12 @@ export default function App() {
         <div className="status-bar">
           <div>
             <h2>Kết quả</h2>
-            <p>Xem giá và hình ảnh của mặt hàng.</p>
+            <p>Xem giá và hình ảnh của mặt hàng</p>
           </div>
         </div>
 
         {filteredItems.length === 0 ? (
-          <p className="empty-state">Không tìm thấy mặt hàng phù hợp.</p>
+          <p className="empty-state">Không tìm thấy mặt hàng nào</p>
         ) : (
           <>
             <div className="mobile-results-list">
