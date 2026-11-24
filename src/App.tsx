@@ -62,9 +62,7 @@ export default function App() {
     <div className="app">
       <header className="hero">
         <div>
-          <span className="eyebrow">
-            Tạp hóa Tuấn Đạt - Tổ 14, KP. Tam Thanh, P. Quảng Phú, TP. Đà Nẵng
-          </span>
+          <span className="eyebrow">Tạp hóa Tuấn Đạt</span>
           <h1>Xem giá mặt hàng</h1>
           <p>Xem giá mặt hàng tại tạp hoá Tuấn Đạt.</p>
         </div>
