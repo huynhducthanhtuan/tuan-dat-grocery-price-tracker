@@ -1532,10 +1532,16 @@
     "image": "nuoctayrua/canh_rua_chen_lix_vang_lon.jpg"
   },
   {
-    "name": "Nước vim bồn cầu swat",
+    "name": "Nước tẩy bồn cầu swat",
     "unit": "chai",
     "price": 25000,
     "image": "nuoctayrua/nuoc_tay_bon_cau_swat.jpg"
+  },
+  {
+    "name": "Nước tẩy bồn cầu vim",
+    "unit": "chai",
+    "price": 25000,
+    "image": "nuoctayrua/nuoc_tay_bon_cau_vim.jpg"
   },
   {
     "name": "Nước lau kính swat",
