@@ -47,3 +47,10 @@ export function removeVietnameseTones(str: string): string {
     .toLowerCase()
     .trim();
 }
+
+export function itemNameMatchesSearch(name: string, searchTerm: string): boolean {
+  const normalizedName = removeVietnameseTones(name);
+  const searchTerms = removeVietnameseTones(searchTerm).split(/\s+/).filter(Boolean);
+
+  return searchTerms.every((term) => normalizedName.includes(term));
+}
