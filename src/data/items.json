@@ -203,21 +203,21 @@
     "image": "douong/mirinda_chai_nho.jpg"
   },
   {
-    "name": "Nước Pocari nhỏ",
+    "name": "Nước bù sức Pocari nhỏ",
     "unit": "chai",
     "price": 12000,
     "pack": 65000,
     "image": "douong/pocari_nho.jpg"
   },
   {
-    "name": "Nước Pocari trung",
+    "name": "Nước bù sức Pocari trung",
     "unit": "chai",
     "price": 15000,
     "pack": 85000,
     "image": "douong/pocari_trung.jpg"
   },
   {
-    "name": "Nước Pocari lớn",
+    "name": "Nước bù sức Pocari lớn",
     "unit": "chai",
     "price": 22000,
     "image": "douong/pocari_lon.jpg"
