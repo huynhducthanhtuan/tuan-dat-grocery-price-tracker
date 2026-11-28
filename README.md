@@ -31,13 +31,13 @@ Website for **extracting product prices** at **Tuan Dat** grocery store.
 Clone the repository:
 
 ```bash
-git clone https://github.com/huynhducthanhtuan/tuan-dat-grocery-price-tracker.git
+git clone https://github.com/huynhducthanhtuan/xemgiabantuandat.git
 ```
 
 Navigate to the root folder:
 
 ```bash
-cd tuan-dat-grocery-price-tracker
+cd xemgiabantuandat
 ```
 
 Install dependencies:
