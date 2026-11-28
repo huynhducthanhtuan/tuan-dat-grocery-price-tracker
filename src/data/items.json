@@ -373,42 +373,42 @@
     "unit": "lon",
     "price": 12000,
     "box": 285000,
-    "image": "biaruou/larue.jpg"
+    "image": "biaruou/bia_larue.jpg"
   },
   {
     "name": "Bia Larue vàng",
     "unit": "lon",
     "price": 12500,
     "box": 290000,
-    "image": "biaruou/larue_vang.jpg"
+    "image": "biaruou/bia_larue_vang.jpg"
   },
   {
     "name": "Bia Huda",
     "unit": "lon",
     "price": 12500,
     "box": 285000,
-    "image": "biaruou/huda.jpg"
+    "image": "biaruou/bia_huda.jpg"
   },
   {
     "name": "Bia Tiger lùn",
     "unit": "lon",
     "price": 13000,
     "box": 305000,
-    "image": "biaruou/tiger_lun.jpg"
+    "image": "biaruou/bia_tiger_lun.jpg"
   },
   {
     "name": "Bia Heineken nhỏ",
     "unit": "lon",
     "price": 17000,
     "box": 390000,
-    "image": "biaruou/heineken_nho.jpg"
+    "image": "biaruou/bia_heineken_nho.jpg"
   },
   {
     "name": "Bia Heineken lớn",
     "unit": "lon",
     "price": 20500,
     "box": 485000,
-    "image": "biaruou/heineken_lon.jpg"
+    "image": "biaruou/bia_heineken_lon.jpg"
   },
   {
     "name": "Rượu Vodka nhỏ",
