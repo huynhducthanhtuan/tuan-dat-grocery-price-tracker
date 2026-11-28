@@ -997,6 +997,12 @@
     "image": "banhkeo/banh_mi_sandwich_vela.jpg"
   },
   {
+    "name": "Hộp bánh mì ngọt",
+    "unit": "hộp",
+    "price": 10000,
+    "image": "banhkeo/hop_banh_mi_ngot.jpg"
+  },
+  {
     "name": "Bánh Pía nhí",
     "unit": "gói",
     "price": 10000,
@@ -1103,6 +1109,18 @@
     "unit": "bịch",
     "price": 5000,
     "image": "banhkeo/banh_theo_leo.jpg"
+  },
+  {
+    "name": "Bánh mè giòn",
+    "unit": "bịch",
+    "price": 11000,
+    "image": "banhkeo/banh_me_gion.jpg"
+  },
+  {
+    "name": "Bánh mè sững",
+    "unit": "bịch",
+    "price": 15000,
+    "image": "banhkeo/banh_me_sung.jpg"
   },
   {
     "name": "Kẹo mút",
