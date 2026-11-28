@@ -2083,6 +2083,12 @@
     "image": "docung/bo_do_co_ba.jpg"
   },
   {
+    "name": "Bộ đồ ông già cao cấp",
+    "unit": "bộ",
+    "price": 45000,
+    "image": "docung/bo_do_ong_gia_cao_cap.jpg"
+  },
+  {
     "name": "Bộ đồ thần",
     "unit": "bộ",
     "price": 35000,
