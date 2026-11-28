@@ -58,6 +58,16 @@ The application will run at:
 http://localhost:5173
 ```
 
+## 📚 Documentation publishing
+
+The Markdown documentation can be published to GitHub Pages manually:
+
+1. In the repository settings, open **Pages** and set the build and deployment source to **GitHub Actions**.
+2. Open the **Actions** tab and select **Publish documentation**.
+3. Select **Run workflow**, choose the branch to publish, and confirm.
+
+The workflow builds `README.md` and `.github/CONTRIBUTING.md` with MkDocs, then deploys the site to GitHub Pages.
+
 ## 👥 Authors
 
 [Huynh Duc Thanh Tuan](https://github.com/huynhducthanhtuan) & [Nguyen Gia Hien](https://github.com/hiengianguyen)
